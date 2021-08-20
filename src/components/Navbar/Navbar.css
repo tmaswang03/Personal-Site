@@ -1,0 +1,55 @@
+@keyframes gradient {
+    0% {
+      background-position: 0%;
+    }
+    50% {
+      background-position: 100%;
+    }
+    100% {
+      background-position: 0%;
+    }
+  }
+  
+
+.NavbarItems {
+    background: linear-gradient(-45deg, #4D6873 0%, #394D59 25%, #121D26 38%, #0D0D0D 50%, #121D26 62%, #4D6873 75%, #4D6873 100%);
+    background-size:  400% 400%;
+    height: 100px; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    font-size: 1.2rem; 
+    animation: gradient 20s ease infinite;
+}
+
+.navbar-logo {
+    color: white; 
+    justify-self: start;
+    margin-left: 20px; 
+    cursor: pointer;
+
+}
+
+.nav-menu {
+    display: grid; 
+    grid-template-columns: repeat(5, auto); 
+    grid-gap: 10px; 
+    list-style: none; 
+    text-align: center; 
+    font-weight: bold; 
+    width: 70vw; 
+    justify-content: end;
+    margin-right: 2rem; 
+}
+
+.nav-links {
+    color: white; 
+    text-decoration: none; 
+    padding: 0.5rem 1rem; 
+}
+
+.nav-links:hover {
+    background-color: #C1D4D9;
+    border-radius: 4px; 
+    transition: all 0.2s ease-out; 
+}
