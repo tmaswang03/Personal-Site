@@ -1,7 +1,18 @@
+:root {
+    --col1: #1A1A1D;
+    --col2: #4E4E50;
+    --col3: #6F2232;
+    --col4: #950740;
+    --col5: #C3073f;
+  }
+
 .textbox {
-    background: -webkit-gradient(linear, left top, right top, from(#3500D3), to(#190061));
-    background: linear-gradient(to right, #3500D3, #190061);
+    /* background: -webkit-gradient(linear, left top, right top, from(var(--col3)), to(var(--col5)));
+    background: linear-gradient(to right, var(--col3), var(--col5)); */
+    background: var(--col1); 
     border-radius: 25px; 
+    border-color: var(--col5); 
+    border-style: solid; 
     height: 200px;
     width: 200px; 
     margin: 20px; 

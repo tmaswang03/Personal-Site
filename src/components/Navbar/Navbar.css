@@ -1,3 +1,11 @@
+:root {
+  --col1: #1A1A1D;
+  --col2: #4E4E50;
+  --col3: #6F2232;
+  --col4: #950740;
+  --col5: #C3073f;
+}
+
 @keyframes gradient {
     0% {
       background-position: 0%;
@@ -14,7 +22,7 @@
 .NavbarItems {
     /* background: linear-gradient(-45deg, #3500D3 0%, #240090 12.5%, #190061 25%, #0C0032 38%, black 50%, black 62%, #190061 75%, #240090 88%, #3500D3 100%);
     background-size:  400% 400%; */
-    background: #0C0032;
+    background: var(--col1);
     height: 100px; 
     display: flex;
     justify-content: center; 
@@ -22,9 +30,9 @@
     font-size: 1.2rem; 
     /* animation: gradient 20s ease infinite; */
     box-shadow:
-      1px 1px #1c2e4a,
-      2px 2px #192841,
-      3px 3px #152238;
+      1px 1px var(--col2),
+      2px 2px var(--col3),
+      3px 3px var(--col4);
 }
 
 .navbar-logo {
@@ -48,13 +56,13 @@
 }
 
 .nav-links {
-    color: white; 
+    color: var(--col5); 
     text-decoration: none; 
     padding: 0.5rem 1rem; 
 }
 
 .nav-links:hover {
-    background-color: #C1D4D9;
+    background-color: var(--col3);
     border-radius: 4px; 
     transition: all 0.2s ease-out; 
 }
