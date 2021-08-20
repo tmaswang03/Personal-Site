@@ -12,14 +12,19 @@
   
 
 .NavbarItems {
-    background: linear-gradient(-45deg, #4D6873 0%, #394D59 25%, #121D26 38%, #0D0D0D 50%, #121D26 62%, #4D6873 75%, #4D6873 100%);
-    background-size:  400% 400%;
+    /* background: linear-gradient(-45deg, #3500D3 0%, #240090 12.5%, #190061 25%, #0C0032 38%, black 50%, black 62%, #190061 75%, #240090 88%, #3500D3 100%);
+    background-size:  400% 400%; */
+    background: #0C0032;
     height: 100px; 
     display: flex;
     justify-content: center; 
     align-items: center; 
     font-size: 1.2rem; 
-    animation: gradient 20s ease infinite;
+    /* animation: gradient 20s ease infinite; */
+    box-shadow:
+      1px 1px #1c2e4a,
+      2px 2px #192841,
+      3px 3px #152238;
 }
 
 .navbar-logo {

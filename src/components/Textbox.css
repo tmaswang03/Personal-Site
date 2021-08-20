@@ -1,0 +1,14 @@
+.textbox {
+    background: -webkit-gradient(linear, left top, right top, from(#3500D3), to(#190061));
+    background: linear-gradient(to right, #3500D3, #190061);
+    border-radius: 25px; 
+    height: 200px;
+    width: 200px; 
+    margin: 20px; 
+    padding: 20px; 
+}
+
+.text {
+    color: #fff; 
+    font-family: 'Epilogue', sans-serif;
+}
