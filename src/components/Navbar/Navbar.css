@@ -4,6 +4,7 @@
   --col3: #1c6000;
   --col4: #27a102;
   --col5: #1fea00;
+  --col6: #01fe87; 
 }
 
 @keyframes gradient {
@@ -30,13 +31,11 @@
     font-size: 1.2rem; 
     /* animation: gradient 20s ease infinite; */
     box-shadow:
-      1px 1px var(--col2),
-      2px 2px var(--col3),
-      3px 3px var(--col4);
+      3px 3px var(--col6)
 }
 
 .navbar-logo {
-    color: var(--col4); 
+    color: var(--col6); 
     justify-self: start;
     margin-left: 20px; 
     cursor: pointer;
@@ -55,7 +54,7 @@
 }
 
 .nav-links {
-    color: var(--col5); 
+    color: var(--col6); 
     text-decoration: none; 
     padding: 0.5rem 1rem; 
 }

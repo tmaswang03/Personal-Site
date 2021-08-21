@@ -4,22 +4,22 @@
     --col3: #1c6000;
     --col4: #27a102;
     --col5: #1fea00;
+    --col6: #01fe87; 
   }
 
 .btn {
     background: var(--col1); 
     position: relative; 
     padding: 10px 30px; 
-    border: 2px solid #41f321; 
-    margin: 10px; 
+    border: 2px solid var(--col6); 
     display: inline-block; 
     text-decoration: none; 
-    font-size: 40px; 
-    color: #41f321; 
+    font-size: 3vw; 
+    color: var(--col6); 
     letter-spacing: 2px; 
     text-transform: uppercase; 
     transition: 0.5s; 
-    margin: 100px; 
+    margin: 20px; 
 }
 
 .btn:hover {

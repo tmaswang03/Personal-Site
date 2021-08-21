@@ -10,12 +10,10 @@ function App() {
     <div className="App">
       <Navbar /> 
       <h2 data-text = "Thomas">
-        Thomas 
+        Thomas
       </h2>
-      <li> 
-        <h3 data-text = "Enjoys">Enjoys </h3>
-        <Button onClick= {() => setIndex((interestIndex + 1) % interest.length)} text = {interest[interestIndex]}/>
-      </li>
+      <h3 data-text = "Enjoys" style = {{display:'inline-block'}}>Enjoys </h3>
+      <Button onClick= {() => setIndex((interestIndex + 1) % interest.length)} text = {interest[interestIndex]}/>
     </div>  
   );
 }
