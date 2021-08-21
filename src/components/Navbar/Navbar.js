@@ -3,7 +3,6 @@ import {MenuItems} from './MenuItems'
 import './Navbar.css'
 
 class Navbar extends Component {
-
     render () {
         return (
             <nav className = "NavbarItems">
