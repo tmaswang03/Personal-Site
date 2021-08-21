@@ -7,7 +7,7 @@ class Navbar extends Component {
     render () {
         return (
             <nav className = "NavbarItems">
-                <h1 className="navbar-logo">Thomas Wang :D</h1>
+                <h1 className="navbar-logo">Thomas Wang</h1>
                 <div className ="menu-icon">
                 </div>
                 <ul className = 'nav-menu'>

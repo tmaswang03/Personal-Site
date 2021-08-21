@@ -36,11 +36,10 @@
 }
 
 .navbar-logo {
-    color: white; 
+    color: var(--col4); 
     justify-self: start;
     margin-left: 20px; 
     cursor: pointer;
-
 }
 
 .nav-menu {

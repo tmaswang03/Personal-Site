@@ -9,9 +9,12 @@ function App() {
       <h2 data-text = "Thomas">
         Thomas 
       </h2>
-      <h3 data-text = "Thomas">
-        Thomas 
+      <h3 data-text = "Enjoys">
+        Enjoys 
       </h3>
+      <div> 
+        <h1 className = "Interests">Thomas</h1>
+      </div>
     </div>
   );
 }
