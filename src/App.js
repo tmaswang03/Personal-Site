@@ -4,7 +4,7 @@ import Button from './components/Button'
 import {useState} from 'react' 
 import './App.css';
 function App() {
-  const interest = ["Playing Games", "Coding", "Music"];
+  const interest = ["Coding", "Contest Math", "Music", "Playing Games",  "Sophia", "Eating", "TV"];
   const [interestIndex, setIndex] = useState(0); 
   return (
     <div className="App">
