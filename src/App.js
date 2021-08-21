@@ -6,14 +6,12 @@ function App() {
   return (
     <div className="App">
       <Navbar /> 
-      <h2>
-        <span>T</span>
-        <span>h</span>
-        <span>o</span>
-        <span>m</span>
-        <span>a</span>
-        <span>s</span>
+      <h2 data-text = "Thomas">
+        Thomas 
       </h2>
+      <h3 data-text = "Thomas">
+        Thomas 
+      </h3>
     </div>
   );
 }

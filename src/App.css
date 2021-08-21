@@ -3,24 +3,58 @@
 @tailwind utilities; 
 
 :root {
-  --col1: #1A1A1D;
-  --col2: #4E4E50;
-  --col3: #6F2232;
-  --col4: #950740;
-  --col5: #C3073f;
+  --col1: #000000;
+  --col2: #002f06;
+  --col3: #1c6000;
+  --col4: #27a102;
+  --col5: #1fea00;
 }
 
 * {
   box-sizing: border-box; 
   margin: 0; 
   padding: 0; 
-  font-family: 'Archivo', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
   background-color: var(--col1); 
+  min-height: 100vh;
 }
 
+h2 {
+  position: relative; 
+  top: 20px; 
+  font-size: 12vw; 
+  color: var(--col1);
+  -webkit-text-stroke: 0.3vw #01fe87;
+  text-transform: uppercase; 
+}
+
+h2::before {
+  content: attr(data-text); 
+  position: absolute; 
+  left: 0; 
+  width: 20%; 
+  height: 100%; 
+  color: #01fe87; 
+  -webkit-text-stroke: 0vw #01fe87; 
+  border-right: 2px solid #01fe87; 
+  overflow: hidden; 
+  animation: animate 5s 1;
+}
+
+@keyframes animate {
+  0%{
+    width: 0; 
+  }
+  50% {
+    width: 54%; 
+  }
+  100% {
+    width: 54%; 
+  }
+}
 
 /* =================================================================
 colors:https://color.adobe.com/search?q=dark

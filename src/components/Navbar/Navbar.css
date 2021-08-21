@@ -1,9 +1,9 @@
 :root {
-  --col1: #1A1A1D;
-  --col2: #4E4E50;
-  --col3: #6F2232;
-  --col4: #950740;
-  --col5: #C3073f;
+  --col1: #000000;
+  --col2: #002f06;
+  --col3: #1c6000;
+  --col4: #27a102;
+  --col5: #1fea00;
 }
 
 @keyframes gradient {
@@ -20,7 +20,7 @@
   
 
 .NavbarItems {
-    /* background: linear-gradient(-45deg, #3500D3 0%, #240090 12.5%, #190061 25%, #0C0032 38%, black 50%, black 62%, #190061 75%, #240090 88%, #3500D3 100%);
+    /* background: linear-gradient(-45deg, var(--) 0%, #240090 12.5%, #190061 25%, #0C0032 38%, black 50%, black 62%, #190061 75%, #240090 88%, #3500D3 100%);
     background-size:  400% 400%; */
     background: var(--col1);
     height: 100px; 
