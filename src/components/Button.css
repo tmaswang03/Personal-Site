@@ -1,11 +1,3 @@
-:root {
-    --col1: #000000;
-    --col2: #002f06;
-    --col3: #1c6000;
-    --col4: #27a102;
-    --col5: #1fea00;
-    --col6: #01fe87; 
-  }
 
 .btn {
     background: var(--col1); 

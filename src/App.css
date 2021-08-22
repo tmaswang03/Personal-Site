@@ -23,14 +23,6 @@ body {
   min-height: 100vh;
 }
 
-h2 {
-  position: relative; 
-  top: 20px; 
-  font-size: 12vw; 
-  color: var(--col1);
-  -webkit-text-stroke: 0.3vw #01fe87;
-  text-transform: uppercase; 
-}
 
 h2::before {
   content: attr(data-text); 
@@ -46,16 +38,73 @@ h2::before {
   animation: animate 2s linear 0.5s 1 normal forwards, flashBar 1s infinite; 
 }
 
+h2 {
+  grid-column-start: 1; 
+  grid-column-end: 3 start; 
+  grid-row-start: 1; 
+  grid-row-end: 2; 
+  position: relative; 
+  width: 63.5%; 
+  top: 20px; 
+  font-size: 13vw; 
+  color: var(--col1);
+  -webkit-text-stroke: 0.3vw #01fe87;
+  text-transform: uppercase; 
+  margin-left: 2vw; 
+}
+
+h3 {
+  grid-column-start: 1; 
+  grid-column-end: 1; 
+  grid-row-start: 2; 
+  grid-row-end: 2; 
+  position: relative; 
+  top: 20px; 
+  margin-left: 2vw; 
+  padding: 0; 
+  font-size: 7vw; 
+  color: var(--col1);
+  -webkit-text-stroke: 0.1vw #01fe87;
+  text-transform: uppercase; 
+}
+
+
+.aboutBtn {
+  justify-self: start; 
+  grid-column-start: 2; 
+  grid-column-end: 2; 
+  grid-row-start: 2; 
+  grid-row-end: 2;
+  background: var(--col1); 
+  position: relative; 
+  padding: 10px 30px; 
+  border: 2px solid var(--col6); 
+  display: inline-block; 
+  text-decoration: none; 
+  font-size: 3vw; 
+  color: var(--col6); 
+  letter-spacing: 2px; 
+  text-transform: uppercase; 
+  transition: 0.5s; 
+  margin-top: 2vw; 
+  height: 8vw; 
+  width: 32.5vw; 
+}
+
+.aboutBtn:hover {
+  color: #111; 
+  cursor: pointer;
+}
 
 @keyframes animate {
   0%{
     width: 0; 
   }
   80% {
-    width: 54%; 
+    width: 70%; 
   }
   100% {
-    width: 61%; 
+    width: 100%; 
   }
 }
 
@@ -71,15 +120,33 @@ h2::before {
   }
 }
 
-h3 {
+.container {
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr); 
+  grid-template-rows: repeat(3, 1fr); 
+}
+
+.textbox {
+  font-size: 1px; 
+  grid-column-start: 3; 
+  grid-column-end: 3; 
+  grid-row-start: 1;
+  grid-row-end: 1;
+  background: var(--col1); 
   position: relative; 
-  top: 20px; 
-  margin: 0; 
-  padding: 0; 
-  font-size: 7vw; 
-  color: var(--col1);
-  -webkit-text-stroke: 0.1vw #01fe87;
+  padding: 10px 30px; 
+  border: 2px solid var(--col6);
+  border-radius: 25px;  
+  display: inline-block; 
+  text-decoration: none; 
+  letter-spacing: 2px; 
   text-transform: uppercase; 
+  transition: 0.5s; 
+  margin: 20px; 
+}
+
+h4 {
+  color: var(--col5); 
 }
 
 /* =================================================================

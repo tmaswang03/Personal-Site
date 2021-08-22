@@ -1,9 +1,9 @@
 import React from 'react'
 import './Textbox.css'
-const Textbox = ({text}) => {
+const Textbox = ({text, color, size, className}) => {
     return (
-        <div className = "textbox">
-            <h3 className = "text">{text}</h3>
+        <div className = {className}>
+            <h4 style= {{fontSize: size}}>{text}</h4>
         </div>
     )
 }
