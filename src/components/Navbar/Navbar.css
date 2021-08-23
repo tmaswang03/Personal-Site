@@ -22,11 +22,11 @@
     font-size: 1.2rem; 
     /* animation: gradient 20s ease infinite; */
     box-shadow:
-      1px 1px var(--col6)
+      1px 1px #fff
 }
 
 .navbar-logo {
-    color: var(--col6); 
+    color: #fff; 
     justify-self: start;
     margin-left: 20px; 
     cursor: pointer;
@@ -45,13 +45,13 @@
 }
 
 .nav-links {
-    color: var(--col6); 
+    color: #fff; 
     text-decoration: none; 
     padding: 0.5rem 1rem; 
 }
 
 .nav-links:hover {
-    background-color: var(--col3);
+    background-color: var(--col6);
     border-radius: 4px; 
     transition: all 0.2s ease-out; 
 }
