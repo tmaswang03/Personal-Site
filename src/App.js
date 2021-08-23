@@ -15,12 +15,7 @@ function App() {
   const [interestIndex, setIndex] = useState(0); 
   return (
     <div className="App">
-      <Router>
-        <Navbar /> 
-        <Switch>
-          <Route path = '/' exact component = {About} /> 
-        </Switch>
-      </Router> 
+      <Navbar /> 
       <div className = "container">
         <h2 data-text = "Thomas">Thomas</h2>
         <h3 data-text = "Enjoys" style = {{display:'inline-block'}}>Enjoys </h3>
