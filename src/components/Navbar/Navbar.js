@@ -1,28 +1,36 @@
-import React, { Component } from 'react'
-import {MenuItems} from './MenuItems'
-import './Navbar.css'
+import React from 'react';
+import {
+  Nav,
+  NavLink,
+  Name,
+  NavMenu,
+} from './NavbarElements';
+import './Logo.css'
+import logo from './logo.png';
+import logo_green from './logo_green.png';
 
-class Navbar extends Component {
-    render () {
-        return (
-            <nav className = "NavbarItems">
-                <h1 className="navbar-logo">Thomas Wang</h1>
-                <div className ="menu-icon">
-                </div>
-                <ul className = 'nav-menu'>
-                    {MenuItems.map((item, index) => {
-                        return (
-                            <li key = {index}>
-                                  <a className = {item.cName} href = {item.url}>
-                                {item.title}
-                                </a>
-                            </li>
-                        )
-                    })}
-                </ul>
-            </nav>
-        )
-    }
-}
+const Navbar = () => {
+  return (
+    <>
+      <Nav>
+        <img src={logo_green} className = "Logo"/>
+        <Name to = '/' activeStyle>
+          Thomas  
+        </Name>
+        <NavMenu>
+          <NavLink to='/about' activeStyle>
+            About
+          </NavLink>
+          <NavLink to='/services' activeStyle>
+            Services
+          </NavLink>
+          <NavLink to='/contact-us' activeStyle>
+            Contact Us
+          </NavLink>
+        </NavMenu>
+      </Nav>
+    </>
+  );
+};
 
-export default Navbar
+export default Navbar;

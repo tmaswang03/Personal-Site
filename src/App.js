@@ -6,23 +6,21 @@ import './App.css';
 import Textbox from './components/Textbox';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'; 
 import About from './Pages/About'; 
+import Home from './Pages/Home'; 
 
 import ParticlesBg from 'particles-bg'
 
 
 function App() {
-  const interest = ["Coding", "Contest Math", "Music", "Playing Games",  "Sophia", "Eating", "TV"];
-  const [interestIndex, setIndex] = useState(0); 
   return (
     <div className="App">
-      <Navbar /> 
-      <div className = "container">
-        <h2 data-text = "Thomas">Thomas</h2>
-        <h3 data-text = "Enjoys" style = {{display:'inline-block'}}>Enjoys </h3>
-        <Button className = "aboutBtn" onClick= {() => setIndex((interestIndex + 1) % interest.length)} text = {interest[interestIndex]}/>
-        {/* <Textbox className = "textbox" text = "About Me" size = "4.5vw"/>  */}
-        <ParticlesBg type = "tadpole" bg = {true} color = "#27a102"/> 
-      </div>
+      <Router>
+        <Navbar /> 
+        <Switch>
+          <Route path = '/' exact component = {Home}/>
+          <Route path = '/about' component = {About}/>
+        </Switch>
+      </Router>
     </div>  
   );
 }
