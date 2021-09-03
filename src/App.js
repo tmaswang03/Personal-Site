@@ -3,10 +3,10 @@ import Navbar from './components/Navbar/Navbar';
 import Button from './components/Button'
 import {useState} from 'react' 
 import './App.css';
-import Textbox from './components/Textbox';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'; 
 import About from './Pages/About'; 
 import Home from './Pages/Home'; 
+import Contact from './Pages/Contact'; 
 
 import ParticlesBg from 'particles-bg'
 
@@ -19,6 +19,7 @@ function App() {
         <Switch>
           <Route path = '/' exact component = {Home}/>
           <Route path = '/about' component = {About}/>
+          <Route path = '/Contact' component = {Contact} /> 
         </Switch>
       </Router>
     </div>  

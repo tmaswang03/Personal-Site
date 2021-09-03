@@ -1,9 +1,11 @@
 import React from 'react'
-
+import './Pages.css'
 const About = () => {
     return (
-        <div style = {{color: "white"}}>
-            HI
+        <div className = "container">
+            <div className = "aboutHeader">
+                About Me 🤗
+            </div>
         </div>
     )
 }

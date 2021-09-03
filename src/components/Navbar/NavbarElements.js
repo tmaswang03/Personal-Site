@@ -9,25 +9,34 @@ export const Nav = styled.nav`
   align-items: center; 
   font-size: 1.2rem; 
   box-shadow:
-    1px 1px #fff
+    2px 2px var(--col5)
 `;
 
 export const NavLink = styled(Link)`
-  color: #fff; 
+  color: var(--col5); 
   text-decoration: none; 
   padding: 0.5rem 1rem; 
   display: flex;
   align-items: center;
   text-decoration: none;
   padding: 0 1rem;
-  height: 100%;
   cursor: pointer;
+  border: 1px solid var(--col5);  
+  height: 3vw;
+  width: 6vw; 
+  margin-top: 0.7vw; 
+  background: -webkit-linear-gradient(0deg, transparent 50%, var(--col3) 50%); 
+  background-size: 100vw 100vw; 
+  transition: 0.5s; 
+  border-radius: 0.5vw; 
+  justify-content: center;  
   &:hover {
-    background-color: #01fe87;
-    border-radius: 4px; 
-    transition: all 0.2s ease-out; 
+    background-position: 50vw 0; 
+    color: var(--col1); 
   }
 `;
+
+
 
 export const Name = styled(Link)`    
   color: #01fe87; 
