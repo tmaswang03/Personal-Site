@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar/Navbar';
 import Button from '../components/Button'
 import {useState} from 'react'  
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'; 
-
+import './Pages.css';
 import ParticlesBg from 'particles-bg'
 
 

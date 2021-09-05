@@ -7,7 +7,6 @@ const Button = ({text, onClick, className}) => {
     className = {className} >{text}</button>
 }
 
-
 Button.propTypes = {
     text: PropTypes.string,
     onClick: PropTypes.func,

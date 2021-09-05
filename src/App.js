@@ -6,7 +6,8 @@ import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'; 
 import About from './Pages/About'; 
 import Home from './Pages/Home'; 
-import Contact from './Pages/Contact'; 
+import Contact from './Pages/Contact';  
+import Portfolio from './Pages/Portfolio'; 
 
 import ParticlesBg from 'particles-bg'
 
@@ -19,6 +20,7 @@ function App() {
         <Switch>
           <Route path = '/' exact component = {Home}/>
           <Route path = '/about' component = {About}/>
+          <Route path = '/Portfolio' component = {Portfolio}/>
           <Route path = '/Contact' component = {Contact} /> 
         </Switch>
       </Router>
