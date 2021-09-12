@@ -3,6 +3,9 @@ import Project from '../components/Project/Project'
 const Portfolio = () => {
     return (
         <div>
+            <button className = "resumeButton">
+                <a href = "https://bit.ly/3ll8fpY">View Resume</a>
+            </button>  
             <Project text = "This bot reads in message with the 
             v!mood command followed by a message. 
             After detecting the mood of the message, 

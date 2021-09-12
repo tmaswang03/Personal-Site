@@ -15,6 +15,11 @@ img {
     margin: 2vw; 
     border: 0.2vw solid var(--col5); 
     border-radius: 0.5vw;   
+    transition: 0.5s; 
+}
+
+.projectContainer:hover {
+box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 .infoContainer {  
     margin: 2vw; 
@@ -44,21 +49,18 @@ img {
     border: 0.2vw solid var(--col5); 
     border-radius: 0.5vw; 
     width: 40vw; 
-    height: 38vh; 
+    height: 39vh; 
     overflow: hidden;
     margin-left: 12vw;  
 }
 
 .codeBtn {
-    display: flex; 
     align-items: center;
     justify-content: center; 
     letter-spacing: 2px; 
-    -webkit-text-stroke: 0.1vw var(--col5);
     text-transform: uppercase; 
-    transition: 0.5s; 
     margin-top: 2vw; 
-    height: 2vw; 
+    height: 4vh; 
     width: 8vw;
     display: inline-block; 
     text-decoration: none; 
@@ -73,21 +75,17 @@ img {
   
 .codeBtn:hover {
     color: var(--col1); 
-    -webkit-text-stroke: 0.1vw var(--col1);
     cursor: pointer; 
     background-position: 50vw 0; 
 }
 
 .projectBtn {
-    display: flex; 
     align-items: center;
     justify-content: center; 
     letter-spacing: 2px; 
-    -webkit-text-stroke: 0.1vw var(--col5);
-    text-transform: uppercase; 
-    transition: 0.5s; 
+    text-transform: uppercase;  
     margin-top: 2vw; 
-    height: 2vw; 
+    height: 4vh; 
     width: 12vw;
     display: inline-block; 
     text-decoration: none; 
@@ -102,7 +100,6 @@ img {
   
 .projectBtn:hover {
     color: var(--col1); 
-    -webkit-text-stroke: 0.1vw var(--col1);
     cursor: pointer; 
     background-position: 50vw 0; 
 }
