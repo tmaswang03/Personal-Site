@@ -13,6 +13,8 @@ const Portfolio = () => {
             Achieved 2nd place overall in YR Hacks 2021 
             and the best application of a database!" head = "vibot"
             imgLi = "/ProjectImg/ViBot.JPG" 
+            codeLink = "https://github.com/tmaswang03/ViBot-Submission"
+            projectLink = "https://devpost.com/software/vibot"
             />
 
             <Project text = "Worked with a group of peers during Hack The North to develop a 
