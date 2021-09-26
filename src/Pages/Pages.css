@@ -107,19 +107,18 @@
     height: 10vh; 
     width: 95.1vw;
     text-decoration: none; 
-    font-size: 1vw;  
-    color: var(--col5); 
-    border: 4px solid #fff; 
+    font-size: 1.5vw;  
+    color: white; 
+    background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+    border: 4px solid var(--col6); 
     border-radius: 0.5vw;
     margin: 2vw; 
     transition: 0.5s; 
 }
 
 .resumeButton:hover {
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    box-shadow: rgba(95, 95, 95, 0.25) 0px 54px 55px, rgba(95, 95, 95, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-
-
 .aboutBtn {
     width: 32.5vw; 
     display: flex; 

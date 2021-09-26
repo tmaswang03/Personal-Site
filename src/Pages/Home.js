@@ -17,7 +17,7 @@ function Home() {
         <h3 className = "headerStyle" data-text = "Enjoys">Enjoys </h3>
         <Button className = "aboutBtn" onClick= {() => setIndex((interestIndex + 1) % interest.length)} text = {interest[interestIndex]}/>
         {/* <Textbox className = "textbox" text = "About Me" size = "4.5vw"/>  */}
-        <ParticlesBg type = "tadpole" bg = {true} color = "#01fe87"/> 
+        <ParticlesBg type = "cobweb" bg = {true} color = "#01fe87"/> 
       </div>
     </div>  
   );

@@ -3,6 +3,7 @@ import './Pages.css'
 const About = () => {
     return (
         <div className = "container">
+            {/* include: education, interests,fpm description */}
             <div className = "aboutHeader">
                 About Me 🤗
             </div>
