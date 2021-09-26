@@ -7,33 +7,32 @@ export const Nav = styled.nav`
   display: flex;
   justify-content: center; 
   align-items: center; 
-  font-size: 1.2rem; 
+  font-size: 2rem; 
   box-shadow:
     2px 2px var(--col5)
 `;
 
 export const NavLink = styled(Link)`
-  color: var(--col6); 
+  color: var(--col3); 
   text-decoration: none; 
-  padding: 0.5rem 1rem; 
   display: flex;
   align-items: center;
   text-decoration: none;
-  font-size: 1.2vw; 
-  padding: 0 1rem;
+  font-size: 3vh; 
+  padding: 25px;
   cursor: pointer;
   border: 1px solid var(--col5);  
   height: 3vw;
   width: auto; 
-  margin-top: 0.7vw; 
-  background: -webkit-linear-gradient(0deg, transparent 50%, var(--col6) 50%); 
+  margin: auto auto; 
+  background: -webkit-linear-gradient(0deg, transparent 50%, var(--col3) 50%); 
   background-size: 100vw 100vw; 
   transition: 0.5s; 
   border-radius: 0.5vw; 
   justify-content: center;  
   &:hover {
     background-position: 50vw 0; 
-    color: var(--col1); 
+    color: var(--col0); 
   }
 `;
 

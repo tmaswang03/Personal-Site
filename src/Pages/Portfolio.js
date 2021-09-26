@@ -6,6 +6,18 @@ const Portfolio = () => {
             <button className = "resumeButton">
                 <a href = "https://bit.ly/3ll8fpY">View Resume</a>
             </button>  
+
+            <Project text = "Group project submission for Hack The North 2021. Made using Flask, NodeJS, Python, Tailwind and Vanilla Javascript. 
+            Create a profile on our website using a reference face image and medical information.
+            Using facial recognition, we then display any important medical information of subjects, grabbing the most likely profile (using the reference face picture) 
+            and displaying important medical information.
+            " 
+            head = "MedicApp" 
+            imgLi = "/ProjectImg/MedicApp.JPG"
+            codeLink = "https://github.com/sophiiasun/HTN"
+            projectLink = "https://devpost.com/software/medicapp-yd2rwc"
+            />  
+
             <Project text = "This bot reads in message with the 
             v!mood command followed by a message. 
             After detecting the mood of the message, 
@@ -24,9 +36,26 @@ const Portfolio = () => {
             website that helps read and identify human emotion. 
             Developed with JavaScript/HTML along with ASP.NET/Blazor for both the front and back-end." head = "emotion net" 
             imgLi = "/ProjectImg/EmotionNet.JPG"
+            codeLink = "https://github.com/tmaswang03/Emotion.Net"
+            projectLink = "https://devpost.com/software/emotion-net"
             />
 
-"
+            <Project text = "Group project made by Sophia Sun and Thomas Wang. Our own version of tetris made with Vanilla JavaScript, CSS and HTML.
+            Compete to reach the highest score and level, point system based on" 
+            head = "Tetros" 
+            imgLi = "/ProjectImg/Tetros.JPG"
+            codeLink = "https://github.com/tmaswang03/Tetros"
+            projectLink = "https://github.com/tmaswang03/Tetros/archive/refs/heads/main.zip"
+            />       
+
+            <Project text = "Team project made with Milliken Mills Robotics Team. Remote controlled and automated robot that is capable of shooting balls into hoops. 
+            Made using FRC library and java 11" 
+            head = "FRC Robotics" 
+            imgLi = "/ProjectImg/FRCRobotics.JPG"
+            codeLink = "https://github.com/tmaswang03/INFINITE-RECHARGE-2020"
+            projectLink = "https://github.com/tmaswang03/INFINITE-RECHARGE-2020/archive/refs/heads/master.zip"
+            />  
+
         </div>
     )
 }
