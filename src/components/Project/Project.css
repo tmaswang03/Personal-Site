@@ -29,7 +29,7 @@ img {
     font-size: 4vw; 
     color: var(--col5);
     /* -webkit-text-stroke: 0.1vw var(--col5); */
-    border-bottom: 0.2vw solid var(--col6); 
+    border-bottom: 0.2vw solid var(--col7); 
     padding: 0.5vw; 
     text-transform: uppercase; 
 }
@@ -47,7 +47,7 @@ img {
 .imageHolder {
     border-radius: 0.5vw; 
     margin: 2vw; 
-    border: 0.2vw solid var(--col6); 
+    border: 0.2vw solid var(--col7); 
     border-radius: 0.5vw; 
     width: 40vw; 
     height: 39vh; 
@@ -67,7 +67,7 @@ img {
     text-decoration: none; 
     font-size: 1vw;  
     color: var(--col5); 
-    border: 4px solid var(--col6); 
+    border: 4px solid var(--col7); 
     background: -webkit-linear-gradient(0deg, transparent 50%, var(--col5) 50%); 
     background-size: 100vw 100vw; 
     transition: 0.5s; 
@@ -92,7 +92,7 @@ img {
     text-decoration: none; 
     font-size: 1vw;  
     color: var(--col5); 
-    border: 4px solid var(--col6); 
+    border: 4px solid var(--col7); 
     background: -webkit-linear-gradient(0deg, transparent 50%, var(--col5) 50%); 
     background-size: 100vw 100vw; 
     transition: 0.5s; 
