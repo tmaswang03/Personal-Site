@@ -12,7 +12,7 @@ function Home() {
   const [interestIndex, setIndex] = useState(0); 
   return (
     <div className="Home">
-      <div className = "container">
+      <div className = "container1">
         <h2 className = "name" data-text = "Thomas">Thomas</h2>
         <h3 className = "headerStyle" data-text = "Enjoys">Enjoys </h3>
         <Button className = "aboutBtn" onClick= {() => setIndex((interestIndex + 1) % interest.length)} text = {interest[interestIndex]}/>

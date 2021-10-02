@@ -1,8 +1,9 @@
 import React from 'react'
 import './Pages.css'
+import ParticlesBg from 'particles-bg'
 const About = () => {
     return (
-        <div className = "container">
+        <div className = "container2">
             {/* include: education, interests,fpm description */}
             <div className = "aboutHeader">
                 About Me 🤗
@@ -13,8 +14,9 @@ const About = () => {
                 Some subjects that I am most passionate about are Mathematics, Computer Science (web dev + competitive programming), 
                 as well as Music. 
                 Throughout my high school career I've enjoyed learning about new things through my own explorations.
-                 
             </div>
+            <img src = "/ProfileImage.JPG" className = "profilePic"></img>
+            <ParticlesBg type = "cobweb" bg = {true} color = "#5CDB95"/> 
         </div>
     )
 }
