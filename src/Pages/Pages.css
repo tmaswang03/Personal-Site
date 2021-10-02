@@ -188,7 +188,7 @@
     margin: 10vw; margin-left: 14vw; margin-top: 5vh; 
     padding-right: 2vw; 
     border: 0.2vw solid var(--col6); 
-    background-color: rgba(4, 82, 45, 0.3);
+    background-color: rgba(0, 0, 0, 0.3);
     grid-row-gap: 1vw; 
 }
 
