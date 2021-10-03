@@ -1,8 +1,8 @@
 import React from 'react'
 import './Pages.css'
 import ParticlesBg from 'particles-bg'
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-// import { faCoffee } from "@fortawesome/free-solid-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faCoffee, faCalculator, faHeadphones, faGamepad, faLaptop } from "@fortawesome/free-solid-svg-icons"
 const About = () => {
     return (
         <div className = "container2">
@@ -20,8 +20,18 @@ const About = () => {
             <img src = "/ProfileImage.JPG" className = "profilePic"></img>
             <h1 className = "hobbies">Hobbies</h1>
             <div className = "buttonContainer">
-                <button className = "hobbieButtons">Math</button>
-                <button className = "hobbieButtons">Music</button>
+                <button className = "hobbieButtons">Math 
+                    <FontAwesomeIcon icon = {faCalculator} className = "ml-4 mr-4 text-green-500"></FontAwesomeIcon>
+                </button>
+                <button className = "hobbieButtons">Music
+                    <FontAwesomeIcon icon = {faHeadphones} className = "ml-4 mr-4 text-red-500"></FontAwesomeIcon>
+                </button>
+                <button className = "hobbieButtons">Video Games
+                    <FontAwesomeIcon icon = {faGamepad} className = "ml-4 mr-4 text-yellow-500"></FontAwesomeIcon>
+                </button>
+                <button className = "hobbieButtons">Computer Science 
+                    <FontAwesomeIcon icon = {faLaptop} className = "ml-4 mr-4 text-blue-500"></FontAwesomeIcon>
+                </button>
             </div>
             <ParticlesBg type = "cobweb" bg = {true} color = "#5CDB95"/> 
         </div>
