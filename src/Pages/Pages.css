@@ -1,56 +1,3 @@
-.aboutHeader {
-    background: var(--col1); 
-    position: relative; 
-    padding: 10px 30px; 
-    border: 0.3vw solid var(--col4);
-    border-radius: 0.5vw;   
-    display: inline-block; 
-    text-transform: none;
-    margin: 2vw;
-    margin-right: 10vw;   
-    font-size: 3vw; 
-    color: var(--col4);
-    width: 24vw; 
-    height: 6vw; 
-}
-
-.aboutHeader:hover {
-    animation: bounce 1.5s linear; 
-}
-
-.aboutText {
-    background: var(--col1); 
-    position: relative; 
-    padding: 10px 30px; 
-    border: 2px solid var(--col4);
-    border-radius: 0;   
-    display: inline-block; 
-    text-transform: none;
-    margin: 2vw;
-    margin-top: 0vw;  
-    font-size: 1.8vh;  
-    grid-row-start: 2; 
-    grid-column-start: 1; 
-    color: var(--col5);
-    width: 30vw; 
-    height: 30vh; 
-}
-
-@keyframes bounce {
-    20%, 50%, 80%, to {
-        transform: translateY(0); 
-    }
-    40%{
-        transform: translateY(-30px); 
-    }
-    70%{
-        transform: translateY(-15px); 
-    }
-    90%{
-        transform: translateY(-4px); 
-    }
-}
-
 .name::before {
     content: attr(data-text); 
     position: absolute; 
@@ -121,25 +68,14 @@
     box-shadow: rgba(95, 95, 95, 0.25) 0px 54px 55px, rgba(95, 95, 95, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .aboutBtn {
-    width: 32.5vw; 
-    display: flex; 
-    align-items: center;
-    justify-content: center; 
-    letter-spacing: 2px; 
+    align-items: center; justify-content: center; display: inline-block; 
     -webkit-text-stroke: 0.1vw var(--col5);
-    text-transform: uppercase; 
-    transition: 0.5s; 
     margin-top: 3vw; 
-    height: 6.5vw; 
-    width: 32.5vw;
-    display: inline-block; 
-    text-decoration: none; 
-    font-size: 3vw;  
-    border-radius: 1.3vw; 
+    height: 6.5vw; width: 32.5vw;
+    letter-spacing: 2px; text-decoration: none; font-size: 3vw; text-transform: uppercase; 
     color: var(--col5); 
-    border: 4px solid var(--col3); 
-    background: -webkit-linear-gradient(0deg, transparent 50%, var(--col5) 50%); 
-    background-size: 100vw 100vw; 
+    border: 4px solid var(--col3); border-radius: 1.3vw;  
+    background: -webkit-linear-gradient(0deg, transparent 50%, var(--col5) 50%);  background-size: 100vw 100vw; 
     transition: 0.5s; 
 }
   
@@ -183,26 +119,59 @@
 
 .container2 { 
     display: grid; 
-    grid-template-rows: repeat(4, auto); 
+    grid-template-rows: repeat(5, auto); 
     grid-template-columns: repeat(5, auto); 
     margin: 10vw; margin-left: 14vw; margin-top: 5vh; 
-    padding-right: 2vw; 
+    padding: 2vw; 
     border: 0.2vw solid var(--col6); 
     background-color: rgba(0, 0, 0, 0.3);
-    grid-row-gap: 1vw; 
+    grid-row-gap: 1vw; grid-column-gap: 1vw; 
 }
 
+.aboutHeader {
+    background: var(--col1); 
+    position: relative; 
+    padding: 10px 30px; 
+    border: 0.3vw solid var(--col6);
+    display: inline-block; 
+    text-transform: none;
+    font-size: 4vw; 
+    color: var(--col5);
+    width: 30vw; 
+    transition: 0.5s; 
+}
+
+.aboutHeader:hover { opacity: 50%; }
+
+.aboutText {
+    background: var(--col1); 
+    position: relative; 
+    padding: 10px 30px; 
+    border: 2px solid var(--col6);
+    display: inline-block; 
+    text-transform: none;
+    font-size: 1.1vw;  
+    grid-row-start: 2; 
+    grid-column-start: 1; 
+    color: var(--col5);
+    width: 30vw; padding: 1vw; 
+    transition: 0.5s; 
+}
+
+.aboutText:hover { opacity: 50%; }
+
 .profilePic {
-    border-radius: 0.5vw; 
-    margin: 2vw; margin-left: 0vw; margin-top: 4vh;
     border: 0.2vw solid var(--col7); 
-    border-radius: 0.5vw; 
+    height: 30vw; width: auto; margin-left: 2vw; 
     overflow: hidden;
     grid-column-start: 2; 
     grid-row-start: 1; 
     grid-row-end: 3; 
     grid-column-end: 4;
+    transition: 0.5s; 
 }
+
+.profilePic:hover { opacity: 50%; }
 
 .textbox {
     font-size: 1px; 
@@ -223,6 +192,41 @@
     margin: 20px; 
 }
   
+.hobbies {
+    grid-column-start: 1; grid-row-start: 3; 
+    background: var(--col1); 
+    position: relative; 
+    padding: 10px 30px; 
+    display: inline-block; 
+    text-transform: none;
+    font-size: 4vw; 
+    color: var(--col5);
+    border: 5px solid var(--col6);
+    transition: 0.5s; 
+}
+
+.hobbies:hover { opacity: 50%; }
+
+.buttonContainer {
+    grid-column-start: 1; grid-row-start: 4; 
+    background: var(--col1); 
+    display: grid; grid-template-rows: repeat(5, auto); 
+    color: var(--col5);
+    transition: 0.5s; 
+}
+
+.hobbieButtons {
+    height: 4vw; width: 9vw;
+    text-decoration: none; 
+    font-size: 2vw;  
+    color: var(--col5); 
+    border: 4px solid var(--col6); margin-bottom: 1vw; 
+    /* background: -webkit-linear-gradient(0deg, transparent 50%, var(--col5) 50%); background-size: 100vw 100vw;  */
+    transition: 0.5s; 
+}
+
+.hobbieButtons:hover { opacity: 50%; }
+
 h4 {
     color: var(--col5); 
 }
