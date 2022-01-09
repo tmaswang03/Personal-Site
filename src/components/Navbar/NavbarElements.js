@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const Nav = styled.nav`
   background: var(--col1);
-  height: 100px; 
+  height: 10vh; 
   display: flex;
   justify-content: center; 
   align-items: center; 
@@ -28,7 +28,6 @@ export const NavLink = styled(Link)`
   background: -webkit-linear-gradient(0deg, transparent 50%, var(--col6) 50%); 
   background-size: 100vw 100vw; 
   transition: 0.5s; 
-  border-radius: 5px; 
   justify-content: center;  
   &:hover {
     background-position: 50vw 0; 

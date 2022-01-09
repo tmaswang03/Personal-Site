@@ -52,7 +52,7 @@
     text-transform: uppercase; 
     margin-top: 2vw; 
     height: 10vh; 
-    width: 94.8vw;
+    width: 95.5vw;
     text-decoration: none; 
     font-size: 1.5vw;  
     color: white; 
@@ -111,6 +111,21 @@
     }
 }
   
+*::-webkit-scrollbar {
+    width: 0.6vw;
+    height: 1vh 
+  }
+
+  *::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: var(--col7);
+    border-radius: 10px;
+    border: 3px solid var(--col1)
+  }
+
 .container1 {
     display: grid; 
     grid-template-columns: repeat(3, 1fr); 
@@ -120,12 +135,12 @@
 .container2 { 
     display: grid; 
     grid-template-rows: repeat(5, auto); 
-    grid-template-columns: repeat(5, auto); 
-    margin: 10vw; margin-left: 14vw; margin-top: 5vh; 
-    padding: 2vw; 
+    grid-template-columns: repeat(4, auto); 
+    margin: 5vw; margin-top: 5vh; 
+    padding: 2vw;
     border: 0.2vw solid var(--col6); 
     background-color: rgba(0, 0, 0, 0.3);
-    grid-row-gap: 1vw; grid-column-gap: 1vw; 
+    grid-row-gap: 4vh; grid-column-gap: 1vw; 
 }
 
 .aboutHeader {
@@ -137,7 +152,7 @@
     text-transform: none;
     font-size: 4vw; 
     color: var(--col5);
-    width: 30vw; 
+    width: 30vw; height: 20vh;
     transition: 0.5s; 
 }
 
@@ -150,7 +165,7 @@
     border: 2px solid var(--col6);
     display: inline-block; 
     text-transform: none;
-    font-size: 1.1vw;  
+    font-size: 2vh;  
     grid-row-start: 2; 
     grid-column-start: 1; 
     color: var(--col5);
@@ -162,16 +177,25 @@
 
 .profilePic {
     border: 0.2vw solid var(--col7); 
-    height: 30vw; width: auto; margin-left: 2vw; 
+    height: 60vh; width: 90vw; 
     overflow: hidden;
     grid-column-start: 2; 
     grid-row-start: 1; 
-    grid-row-end: 3; 
+    grid-row-end: 4; 
     grid-column-end: 4;
+    object-fit: cover; 
     transition: 0.5s; 
 }
 
 .profilePic:hover { opacity: 50%; }
+
+.contacts {
+    grid-column-start: 1; grid-row-start: 3; 
+    background-color: rgba(0, 0, 0, 0);
+    display: grid; 
+    grid-template-columns: repeat(5, auto); 
+    color: var(--col5);
+}
 
 .textbox {
     font-size: 1px; 
@@ -193,7 +217,7 @@
 }
   
 .hobbies {
-    grid-column-start: 1; grid-column-end: 6; grid-row-start: 3; 
+    grid-column-start: 1; grid-column-end: 4; grid-row-start: 4; 
     background: var(--col0); 
     position: relative; 
     padding: 10px 30px; 
@@ -201,26 +225,67 @@
     text-transform: none;
     font-size: 4vw; 
     color: var(--col5);
-    border: 5px solid var(--col6);
+    border: 5px solid var(--col6); 
     transition: 0.5s; 
 }
 
 .hobbies:hover { opacity: 50%; }
 
 .buttonContainer {
-    grid-column-start: 1; grid-row-start: 4; 
+    grid-column-start: 1; grid-row-start: 5;  
     background-color: rgba(0, 0, 0, 0);
-    display: grid; grid-template-rows: repeat(5, auto); 
+    display: grid; height: 50vh; 
+    grid-template-rows: repeat(5, auto); 
     color: var(--col5);
     transition: 0.5s; 
 }
 
+.hobbieContainer {
+    grid-column-start: 2; grid-column-end: 4; grid-row-start: 5;  
+    background-color: rgba(0, 0, 0, 0);
+    display: grid; height: 40vh; 
+    grid-template-rows: repeat(5, auto); 
+    color: var(--col5);
+    transition: 0.5s; 
+    margin-left: auto; 
+    margin-right: 0;
+    align-items: right; 
+}
+
+.hobbieTitle {
+    background-color: rgba(0, 0, 0, 0);
+    background: var(--col0); 
+    border: 4px solid var(--col6);
+    content: attr(data-text); 
+    text-transform: none;
+    font-size: 5vh;  
+    grid-row-start: 1; 
+    color: var(--col5); padding-left: 1vw; 
+    height: 8.5vh; width: auto; margin-left: 1.75vw; margin-bottom: 5vh; 
+    transition: 0.5s; 
+}
+
+.hobbieDiv {
+    background-color: rgba(0, 0, 0, 0);
+    background: var(--col0); 
+    border: 4px solid var(--col6);
+    content: attr(data-text); 
+    text-transform: none;
+    font-size: 15.3px;  
+    grid-row-start: 3; 
+    color: var(--col5);
+    padding: 20px; 
+    height: 36.5vh; width: 50vw; margin-left: 1.75vw;
+    overflow: overlay; 
+    transition: 0.5s; 
+}
+
 .hobbieButtons {
-    height: 4vw; width: 25vw; 
+    height: 8.5vh; width: 30vw; 
     text-decoration: none; 
-    font-size: 2vw;  
+    font-size: 2vw; margin-bottom: 5.4vh; 
     color: var(--col5); background-color: var(--col0);
-    border: 4px solid var(--col6); margin-bottom: 1vw; 
+    border: 4px solid var(--col6); 
     /* background: -webkit-linear-gradient(0deg, transparent 50%, var(--col5) 50%); background-size: 100vw 100vw;  */
     transition: 0.5s; 
 }
