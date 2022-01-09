@@ -51,6 +51,7 @@ img {
     border-radius: 0.5vw; 
     width: 40vw; 
     height: 39vh; 
+    object-fit: cover; 
     overflow: hidden;
     margin-left: 12vw;  
 }

@@ -18,9 +18,7 @@ const Project = ({text, head, imgLi, codeLink, projectLink}) => {
                     <a href= {projectLink}>View Project</a>
                 </button>  
             </div>
-            <div className = "imageHolder">
-                <img src = {imgLi}></img>
-            </div>
+            <img className = "imageHolder" src = {imgLi}></img>
         </div>
     )
 }

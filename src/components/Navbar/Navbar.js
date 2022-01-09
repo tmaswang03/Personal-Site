@@ -14,7 +14,7 @@ const Navbar = () => {
     <>
       <Nav>
         <img src={logo_green} className = "Logo"/>
-        <Name to = '/' activeStyle>
+        <Name to = '/Personal-Site' activeStyle>
           Thomas  
         </Name>
         <NavMenu>
