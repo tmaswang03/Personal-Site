@@ -13,7 +13,7 @@ const Portfolio = () => {
             and displaying important medical information.
             " 
             head = "MedicApp" 
-            imgLi = "/ProjectImg/MedicApp.JPG"
+            imgLi = "./Personal-Site/ProjectImg/MedicApp.JPG"
             codeLink = "https://github.com/sophiiasun/HTN"
             projectLink = "https://devpost.com/software/medicapp-yd2rwc"
             />  
@@ -27,7 +27,7 @@ const Portfolio = () => {
             and the average is calculated to compare with your current emotion.  
             Achieved 2nd place overall in YR Hacks 2021 
             and the best application of a database!" head = "vibot"
-            imgLi = "/ProjectImg/ViBot.JPG" 
+            imgLi = "./Personal-Site/ProjectImg/ViBot.JPG"
             codeLink = "https://github.com/tmaswang03/ViBot-Submission"
             projectLink = "https://devpost.com/software/vibot"
             />
@@ -35,7 +35,7 @@ const Portfolio = () => {
             <Project text = "Worked with a group of peers during Hack The North to develop a 
             website that helps read and identify human emotion. 
             Developed with JavaScript/HTML along with ASP.NET/Blazor for both the front and back-end." head = "emotion net" 
-            imgLi = "/ProjectImg/EmotionNet.JPG"
+            imgLi = "/Personal-Site/ProjectImg/EmotionNet.JPG"
             codeLink = "https://github.com/tmaswang03/Emotion.Net"
             projectLink = "https://devpost.com/software/emotion-net"
             />
@@ -43,7 +43,7 @@ const Portfolio = () => {
             <Project text = "Group project made by Sophia Sun and Thomas Wang. Our own version of tetris made with Vanilla JavaScript, CSS and HTML.
             Compete to reach the highest score and level, point system based on" 
             head = "Tetros" 
-            imgLi = "/ProjectImg/Tetros.JPG"
+            imgLi = "/Personal-Site/ProjectImg/Tetros.JPG"
             codeLink = "https://github.com/tmaswang03/Tetros"
             projectLink = "https://github.com/tmaswang03/Tetros/archive/refs/heads/main.zip"
             />       
@@ -51,7 +51,7 @@ const Portfolio = () => {
             <Project text = "Team project made with Milliken Mills Robotics Team. Remote controlled and automated robot that is capable of shooting balls into hoops. 
             Made using FRC library and java 11" 
             head = "FRC Robotics" 
-            imgLi = "/ProjectImg/FRCRobotics.JPG"
+            imgLi = "/Personal-Site/ProjectImg/FRCRobotics.JPG"
             codeLink = "https://github.com/tmaswang03/INFINITE-RECHARGE-2020"
             projectLink = "https://github.com/tmaswang03/INFINITE-RECHARGE-2020/archive/refs/heads/master.zip"
             />  
