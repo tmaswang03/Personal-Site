@@ -156,7 +156,7 @@
     transition: 0.5s; 
 }
 
-.aboutHeader:hover { opacity: 50%; }
+.aboutHeader:hover { opacity: 0.5; }
 
 .aboutText {
     background: var(--col0); 
@@ -173,7 +173,7 @@
     transition: 0.5s; 
 }
 
-.aboutText:hover { opacity: 50%; }
+.aboutText:hover { opacity: 0.5; }
 
 .profilePic {
     border: 0.2vw solid var(--col7); 
@@ -187,7 +187,7 @@
     transition: 0.5s; 
 }
 
-.profilePic:hover { opacity: 50%; }
+.profilePic:hover { opacity: 0.5; }
 
 .contacts {
     grid-column-start: 1; grid-row-start: 3; 
@@ -229,7 +229,7 @@
     transition: 0.5s; 
 }
 
-.hobbies:hover { opacity: 50%; }
+.hobbies:hover { opacity: 0.5; }
 
 .buttonContainer {
     grid-column-start: 1; grid-row-start: 5;  
