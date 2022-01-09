@@ -239,7 +239,6 @@ img {
     display: grid; height: 50vh; 
     grid-template-rows: repeat(5, auto); 
     color: var(--col5);
-    transition: 0.5s; 
 }
 
 .hobbieContainer {
@@ -292,7 +291,7 @@ img {
     transition: 0.5s; 
 }
 
-.hobbieButtons:hover { opacity: 50%; }
+.hobbieButtons:hover { opacity: 0.5; }
 
 h4 {
     color: var(--col5); 
