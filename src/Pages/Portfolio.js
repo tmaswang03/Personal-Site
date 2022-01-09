@@ -13,7 +13,7 @@ const Portfolio = () => {
             and displaying important medical information.
             " 
             head = "MedicApp" 
-            imgLi = "./Personal-Site/ProjectImg/MedicApp.JPG"
+            imgLi = "/Personal-Site/ProjectImg/MedicApp.JPG"
             codeLink = "https://github.com/sophiiasun/HTN"
             projectLink = "https://devpost.com/software/medicapp-yd2rwc"
             />  
@@ -27,7 +27,7 @@ const Portfolio = () => {
             and the average is calculated to compare with your current emotion.  
             Achieved 2nd place overall in YR Hacks 2021 
             and the best application of a database!" head = "vibot"
-            imgLi = "../Personal-Site/blob/main/public/ProjectImg/ViBot.JPG"
+            imgLi = "../Personal-Site/ProfileImage.jpg"
             codeLink = "https://github.com/tmaswang03/ViBot-Submission"
             projectLink = "https://devpost.com/software/vibot"
             />
