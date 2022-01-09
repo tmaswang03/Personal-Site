@@ -13,7 +13,7 @@ const Portfolio = () => {
             and displaying important medical information.
             " 
             head = "MedicApp" 
-            imgLi = "/Personal-Site/ProjectImg/MedicApp.JPG"
+            imgLi = "Personal-Site/ProjectImg/MedicApp.JPG"
             codeLink = "https://github.com/sophiiasun/HTN"
             projectLink = "https://devpost.com/software/medicapp-yd2rwc"
             />  
@@ -43,7 +43,7 @@ const Portfolio = () => {
             <Project text = "Group project made by Sophia Sun and Thomas Wang. Our own version of tetris made with Vanilla JavaScript, CSS and HTML.
             Compete to reach the highest score and level, point system based on" 
             head = "Tetros" 
-            imgLi = ".../Personal-Site/ProjectImg/Tetros.JPG"
+            imgLi = "../Personal-Site/ProjectImg/Tetros.JPG"
             codeLink = "https://github.com/tmaswang03/Tetros"
             projectLink = "https://github.com/tmaswang03/Tetros/archive/refs/heads/main.zip"
             />       
