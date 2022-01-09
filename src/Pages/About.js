@@ -56,7 +56,7 @@ const About = () => {
                     <FontAwesomeIcon icon = {faLinkedin} className = "text-green-600 text-6xl hover:text-white duration-500"/>
                 </a>
             </div>
-            <img src = "/Personal-Site/ProfileImage.jpg" className = "profilePic"></img>
+            <img src = "../Personal-Site/ProfileImage.jpg" className = "profilePic"></img>
             <h1 className = "hobbies">Hobbies</h1>
             <div className = "buttonContainer">
                 <button className = "hobbieButtons" onClick= {() => setHobbieIndex(1)}>Math 
