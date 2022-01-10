@@ -3,7 +3,7 @@ import Navbar from './components/Navbar/Navbar';
 import Button from './components/Button'
 import {useState, useEffect} from 'react' 
 import './App.css';
-import { HashRouter as Router, Switch, Route } from 'react-router-dom'; 
+import { HashRouter, Router, Switch, Route } from 'react-router-dom'; 
 import About from './Pages/About'; 
 import Home from './Pages/Home'; 
 import Contact from './Pages/Contact';  
@@ -18,7 +18,7 @@ function App() {
   }, [])
   return (
     <div className="App">
-      <Router>
+      <HashRouter>
         <Navbar /> 
         <Switch>
           <Route path = '/' exact component = {Home}/>
@@ -26,7 +26,7 @@ function App() {
           <Route path = '/Portfolio' component = {Portfolio}/>
           <Route path = '/Contact' component = {Contact} /> 
         </Switch>
-      </Router>
+      </HashRouter>
     </div>  
   );
 }

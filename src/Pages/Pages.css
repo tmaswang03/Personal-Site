@@ -194,8 +194,8 @@
     background-color: rgba(0, 0, 0, 0);
     display: grid; 
     grid-template-columns: repeat(5, auto); 
-    margin: auto; margin-left: 1.3vw; margin-right: 0; 
-    color: var(--col5); padding-left: 1.3vw;
+    margin: auto; margin-left: 0vw; margin-right: 0; 
+    color: var(--col5); 
 }
 
 .textbox {
