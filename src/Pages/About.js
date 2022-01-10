@@ -10,14 +10,14 @@ const About = () => {
     const myHobbies = ["Welcome to my hobbies section :D. Click on the buttons on the side to discover more about my interests. ", 
     "Mathematics has been something I've done since elementary school (although I'm not the best at it). I've participated in a bunch of " +  
     "math contests such as Waterloo's, COMC, and AMC earning honors on some (nothing too crazy though).  In grade 10 I founded my school's" + 
-    "math club with some friends. Currently, I try to practice 3 - 5 hours per week but more focused on CS than math.", 
+    " math club with some friends. Currently, I try to practice 3 - 5 hours per week but more focused on CS than math.", 
     "Most of the time you might catch me listening to spotify or some youtube songs (lofi in particular). " + 
     "Previously, I played piano, reaching grade 10 before I stopped. Nowadays I've been trying (although there's still school) to learn how"
     + " to play the guitar and fiddled with a little bit of music making using FL Studio 12. If you would like to add me on spotify" 
-    + " my account should be on my contacts page. ", 
+    + " my account should be on my contacts part. ", 
     "When I'm not doing school work, math or cs I enjoy hanging out with my friends and playing League of Legends, Tetris, Chess and watching Youtube."
     + " I've also previously played CS:GO, Minecraft as well as Slime Ranchers. I'm most proud of my Tetris, reaching the top 20% of Canadian players on Tetr.io" + 
-    ". For chess, I mainly play on Lichess.org where I'm at 1660 rating for Rapid and 1861 for puzzles. Sadly I do not have as much time to " +
+    ". For chess, I mainly play on Lichess.org where I'm at 1660 rating for Rapid and 1861 for puzzles. Sadly, I do not have as much time to " +
     "play games now due to university applications ): but I still do occasionally play League and Tetris.",  
     "Computer Science is by far my favourite subject and I first began in grade 10 when my friend introduced me to dmoj.ca." + 
     "This was an online judge used for practicing problems regarding Competitive Programming and I created an account under Tmaswang03. " +

@@ -13,7 +13,7 @@ export const Nav = styled.nav`
 `;
 
 export const NavLink = styled(Link)`
-  color: var(--col6); 
+  color: var(--col3); 
   text-decoration: none; 
   display: flex;
   align-items: center;
@@ -25,7 +25,7 @@ export const NavLink = styled(Link)`
   height: 3vw;
   width: auto; 
   margin: auto auto; 
-  background: -webkit-linear-gradient(0deg, transparent 50%, var(--col6) 50%); 
+  background: -webkit-linear-gradient(0deg, transparent 50%, white 50%); 
   background-size: 100vw 100vw; 
   transition: 0.5s; 
   justify-content: center;  
