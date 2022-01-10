@@ -35,7 +35,7 @@ const Portfolio = () => {
             <Project text = "Worked with a group of peers during Hack The North to develop a 
             website that helps read and identify human emotion. 
             Developed with JavaScript/HTML along with ASP.NET/Blazor for both the front and back-end." head = "emotion net" 
-            imgLi = "./tmaswang03.github.io/ProjectImg/EmotionNet.JPG"
+            imgLi = "./ProjectImg/EmotionNet.JPG"
             codeLink = "https://github.com/tmaswang03/Emotion.Net"
             projectLink = "https://devpost.com/software/emotion-net"
             />
@@ -43,7 +43,7 @@ const Portfolio = () => {
             <Project text = "Group project made by Sophia Sun and Thomas Wang. Our own version of tetris made with Vanilla JavaScript, CSS and HTML.
             Compete to reach the highest score and level, point system based on" 
             head = "Tetros" 
-            imgLi = "./tmaswang03.github.io/ProjectImg/Tetros.JPG"
+            imgLi = "../ProjectImg/Tetros.JPG"
             codeLink = "https://github.com/tmaswang03/Tetros"
             projectLink = "https://github.com/tmaswang03/Tetros/archive/refs/heads/main.zip"
             />       
