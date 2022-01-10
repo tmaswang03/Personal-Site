@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faCoffee, faCalculator, faHeadphones, faGamepad, faLaptop, faEnvelope } from "@fortawesome/free-solid-svg-icons"
 import { faSpotify, faDiscord, faLinkedin, faGithub, faInstagram } from "@fortawesome/free-brands-svg-icons"
 const About = () => {
-    const myHobbies = ["Welcome to my hobbies section :D. Click on the buttons on the side to discover more about my hobbies. ", 
+    const myHobbies = ["Welcome to my hobbies section :D. Click on the buttons on the side to discover more about my interests. ", 
     "Mathematics has been something I've done since elementary school (although I'm not the best at it). I've participated in a bunch of " +  
     "math contests such as Waterloo's, COMC, and AMC earning honors on some (nothing too crazy though).  In grade 10 I founded my school's" + 
     "math club with some friends. Currently, I try to practice 3 - 5 hours per week but more focused on CS than math.", 
@@ -25,7 +25,7 @@ const About = () => {
     + "CSES, leetcode and atcoder.  In 2021 I wrote my first CCC senior, ranking in the top 4%. By grade 12 I founded "
     + "my school's Computer Science club and began participating in Hackathons and 100$+ in awards. Now, I hope to pursue a Computer Science Career at Waterloo. "
     + "If you are seeing this that means that now I have finished my personal site (built with react) :D and thank you for visiting :)"];
-    const myHobbieTitles = ["Hobbies :DDD", "Math", "Music", "Video Games", "Computer Science"]
+    const myHobbieTitles = ["Hobbies", "Math", "Music", "Video Games", "Computer Science"]
     const [hobbieIndex, setHobbieIndex] = useState(0); 
     return (
         <div className = "container2">
@@ -41,19 +41,19 @@ const About = () => {
             </div>
             <div className = "contacts">
                 <a href = "https://open.spotify.com/user/21j5rrzcvdw7k6wq3yzr4uj7q?si=3e49b5181ecf4f47">
-                    <FontAwesomeIcon icon = {faSpotify} className = "ml-4 text-green-600 text-6xl hover:text-white duration-500"/>
+                    <FontAwesomeIcon icon = {faSpotify} className = "icons"/>
                 </a>
                 <a href = "https://www.instagram.com/tmaswang_69/">
-                    <FontAwesomeIcon icon = {faInstagram} className = "text-green-600 text-6xl hover:text-white duration-500"/>
+                    <FontAwesomeIcon icon = {faInstagram} className = "icons"/>
                 </a>
                 <a href = "https://github.com/tmaswang03">
-                    <FontAwesomeIcon icon = {faGithub} className = "text-green-600 text-6xl hover:text-white duration-500"/>
+                    <FontAwesomeIcon icon = {faGithub} className = "icons"/>
                 </a>
                 <a href = "mailto:thomaswang003@gmail.com">
-                    <FontAwesomeIcon icon = {faEnvelope} className = "text-green-600 text-6xl hover:text-white duration-500"/>
+                    <FontAwesomeIcon icon = {faEnvelope} className = "icons"/>
                 </a>
                 <a href = "https://www.linkedin.com/in/thomas-wang-5044b01b3/">
-                    <FontAwesomeIcon icon = {faLinkedin} className = "text-green-600 text-6xl hover:text-white duration-500"/>
+                    <FontAwesomeIcon icon = {faLinkedin} className = "icons"/>
                 </a>
             </div>
             <img src = "../ProfileImage.jpg" className = "profilePic"></img>

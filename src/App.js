@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './components/Navbar/Navbar'; 
 import Button from './components/Button'
-import {useState} from 'react' 
+import {useState, useEffect} from 'react' 
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'; 
 import About from './Pages/About'; 
@@ -13,6 +13,9 @@ import ParticlesBg from 'particles-bg'
 
 
 function App() {
+  useEffect(() => {
+    document.title = "Tmaswang04"
+  }, [])
   return (
     <div className="App">
       <Router>

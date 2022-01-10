@@ -152,7 +152,7 @@
     text-transform: none;
     font-size: 4vw; 
     color: var(--col5);
-    width: 30vw; height: 20vh;
+    width: 30vw; 
     transition: 0.5s; 
 }
 
@@ -177,7 +177,7 @@
 
 .profilePic {
     border: 0.2vw solid var(--col7); 
-    height: 60vh; width: 90vw; 
+    height: 100%; width: 90vw; 
     overflow: hidden;
     grid-column-start: 2; 
     grid-row-start: 1; 
@@ -194,7 +194,8 @@
     background-color: rgba(0, 0, 0, 0);
     display: grid; 
     grid-template-columns: repeat(5, auto); 
-    color: var(--col5);
+    margin: auto; margin-left: 1.3vw; margin-right: 0; 
+    color: var(--col5); padding-left: 1.3vw;
 }
 
 .textbox {
@@ -292,6 +293,16 @@ img {
 }
 
 .hobbieButtons:hover { opacity: 0.5; }
+
+.icons{
+    color: rgb(22 163 74); 
+    font-size: 3vw; 
+    transition: 0.5s; align-self: bottom;
+}
+
+.icons:hover { 
+    color: white; 
+}
 
 h4 {
     color: var(--col5); 
