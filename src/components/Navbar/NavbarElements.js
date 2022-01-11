@@ -14,17 +14,14 @@ export const Nav = styled.nav`
 
 export const NavLink = styled(Link)`
   color: var(--col3); 
-  text-decoration: none; 
   display: flex;
   align-items: center;
   text-decoration: none;
-  font-size: 2.5vh; 
-  padding: 25px;
+  font-size: 80%; 
+  padding: 2vw;
   cursor: pointer;
   border: 1px solid var(--col5);  
-  height: 3vw;
-  width: auto; 
-  margin: auto auto; 
+  height: 8vh; 
   background: -webkit-linear-gradient(0deg, transparent 50%, white 50%); 
   background-size: 100vw 100vw; 
   transition: 0.5s; 
