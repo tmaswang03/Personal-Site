@@ -18,8 +18,7 @@
     grid-row-start: 1; 
     grid-row-end: 2; 
     position: relative; 
-    width: 64vw; 
-    top: 30px; 
+    width: 61vw; 
     font-size: 13vw; 
     color: var(--col1);
     -webkit-text-stroke: 0.3vw var(--col5);
@@ -78,27 +77,15 @@
   
   
 @keyframes animate {
-    0%{
-      width: 0; 
-    }
-    80% {
-      width: 70%; 
-    }
-    100% {
-      width: 100%; 
-    }
+    0%{ width: 0; }
+    80% { width: 70%; }
+    100% { width: 100%; }
 }
   
 @keyframes flashBar {
-    0%{
-      border-right: 2px solid var(--col5);  
-    }
-    50% {
-      border-right: 2px solid var(--col1);  
-    }
-    100% {
-      border-right: 2px solid var(--col5);  
-    }
+    0%{ border-right: 2px solid var(--col5); }
+    50% { border-right: 2px solid var(--col1); }
+    100% { border-right: 2px solid var(--col5); }
 }
   
 *::-webkit-scrollbar {
@@ -190,10 +177,7 @@
 
 .textbox {
     font-size: 1px; 
-    grid-column-start: 3; 
-    grid-column-end: 3; 
-    grid-row-start: 1;
-    grid-row-end: 1;
+    grid-column-start: 3; grid-column-end: 3; grid-row-start: 1; grid-row-end: 1;
     background: var(--col1); 
     position: relative; 
     padding: 10px 30px; 
@@ -207,9 +191,7 @@
     margin: 20px; 
 }
 
-img {
-    object-fit: coverr; 
-}
+img { object-fit: cover; }
 
 .hobbies {
     grid-column-start: 1; grid-column-end: 4; grid-row-start: 4; 
