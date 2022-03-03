@@ -10,7 +10,7 @@ import "react-vertical-timeline-component/style.min.css";
 function Timeline() {
   return (
     <div>
-        <h1 className = "timelineHeader">Welcome to my Timeline 😎</h1> 
+        <h1 className = "timelineHeader">Welcome To My Timeline</h1> 
         <VerticalTimeline visible = {true} animate = {true}>
             {TimelineElements.map((element) => {
             return (
