@@ -24,6 +24,9 @@ const Navbar = () => {
           <NavLink to='/Portfolio' activeStyle>  
             Portfolio
           </NavLink>
+          <NavLink to='/Timeline' activeStyle>  
+            Timeline
+          </NavLink>
         </NavMenu>
       </Nav>
     </>

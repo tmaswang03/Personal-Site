@@ -8,6 +8,7 @@ import About from './Pages/About';
 import Home from './Pages/Home'; 
 import Contact from './Pages/Contact';  
 import Portfolio from './Pages/Portfolio'; 
+import Timeline from './Pages/Timeline'; 
 
 import ParticlesBg from 'particles-bg'
 
@@ -24,7 +25,7 @@ function App() {
           <Route path = '/' exact component = {Home}/>
           <Route path = '/About' component = {About}/>
           <Route path = '/Portfolio' component = {Portfolio}/>
-          <Route path = '/Contact' component = {Contact} /> 
+          <Route path = '/Timeline' component = {Timeline} /> 
         </Switch>
       </HashRouter>
     </div>  

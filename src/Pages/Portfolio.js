@@ -7,6 +7,13 @@ const Portfolio = () => {
                 <a href = "https://bit.ly/3ll8fpY">View Resume</a>
             </button>  
 
+            <Project text = "Group project submission for Hack This Fall, where we created an online room chatting application. Chatify hosts up to 12 different chat rooms where you can talk with people about anything and connect with people from around the world. This was made using Firebase as well as ReactJS and Bootstrap. " 
+            head = "MedicApp" 
+            imgLi = "./ProjectImg/Chatify.jpg"
+            codeLink = "https://github.com/tmaswang03/Hack-This-Fall-2021"
+            projectLink = "https://devpost.com/software/chatify-42wgsp"
+            />  
+
             <Project text = "Group project submission for Hack The North 2021. Made using Flask, NodeJS, Python, Tailwind and Vanilla Javascript. 
             Create a profile on our website using a reference face image and medical information.
             Using facial recognition, we then display any important medical information of subjects, grabbing the most likely profile (using the reference face picture) 

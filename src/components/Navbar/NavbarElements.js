@@ -23,6 +23,7 @@ export const NavLink = styled(Link)`
   height: 8vh; 
   transition: 0.5s; 
   justify-content: center;  
+  border: 2px solid var(--col6); 
   &:hover {
     background: var(--col6); 
     color: #050801;
