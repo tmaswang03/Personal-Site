@@ -1,5 +1,5 @@
 import React from 'react'
-import TimelineElements from "./TimelineElements";
+import timelineElements from "./timelineElements";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -11,10 +11,10 @@ function Timeline() {
   return (
     <div>
         <h1 className = "timelineHeader">Welcome To My Timeline</h1> 
-        <VerticalTimeline visible = {true} animate = {true}>
-            {TimelineElements.map((element) => {
+        <VerticalTimeline lineColor = "var(--col6) ">
+            {timelineElements.map((element) => {
             return (
-                <VerticalTimelineElement
+                <VerticalTimelineElement 
                 key={element.key}
                 date={element.date}
                 dateClassName="date"

@@ -8,13 +8,13 @@ import ParticlesBg from 'particles-bg'
 
 
 function Home() {
-  const interest = ["Coding", "Contest Math", "Music", "Playing Games",  "Sophia", "Eating", "TV"];
+  const interest = ["Waterloo", "Coding", "Contest Math", "Music", "Playing Games",  "Sophia", "Eating", "TV"];
   const [interestIndex, setIndex] = useState(0); 
   return (
     <div className="Home">
       <div className = "container1">
         <h2 className = "name" data-text = "Thomas">Thomas</h2>
-        <h3 className = "headerStyle" data-text = "Enjoys">Enjoys </h3>
+        <h3 className = "headerStyle" data-text = "Enjoys">Enjoys</h3>
         <Button className = "aboutBtn" onClick= {() => setIndex((interestIndex + 1) % interest.length)} text = {interest[interestIndex]}/>
         {/* <Textbox className = "textbox" text = "About Me" size = "4.5vw"/>  */}
         <ParticlesBg type = "cobweb" bg = {true} color = "#01fe87"/> 
