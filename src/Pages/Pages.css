@@ -20,6 +20,7 @@
     -webkit-text-stroke: 0.6vw var(--col5);
     text-transform: uppercase; 
     margin-left: 2vw; 
+    z-index: -1; 
 }
   
 @keyframes animate {
