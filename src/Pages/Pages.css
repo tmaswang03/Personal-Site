@@ -297,16 +297,14 @@ h3 {
 .timelineHeader {
     display: flex; 
     align-items: center;
-    justify-content: center; 
-    position: center; 
-    padding: 10px 30px; margin: auto; margin-top: 2vh; justify-content: center; 
+    padding: 10px 30px; margin: auto; margin-top: 5vh; justify-content: center; 
     border: 2px solid var(--col6);
-    text-transform: none; font-size: 2vh;  
+    text-transform: none; font-size: 3vh;  
     grid-row-start: 2; grid-column-start: 1; 
     box-shadow: 0 0 2px var(--col6), 0 0 2px var(--col6), 0 0 5px var(--col6), 0 0 200px var(--col6);
     -webkit-text-stroke: 1px var(--col6); 
     color: var(--col3);
-    width: 30vw; 
+    width: 30vw; height: 10vh; 
     transition: 0.5s;   
 }
 
