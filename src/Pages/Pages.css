@@ -17,7 +17,7 @@
     width: 61vw; 
     font-size: 13vw; 
     color: var(--col1);
-    -webkit-text-stroke: 0.3vw var(--col5);
+    -webkit-text-stroke: 0.6vw var(--col5);
     text-transform: uppercase; 
     margin-left: 2vw; 
 }
