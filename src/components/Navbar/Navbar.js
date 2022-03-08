@@ -4,6 +4,7 @@ import {
   NavLink,
   Name,
   NavMenu,
+  Resume, 
 } from './NavbarElements';
 import './Logo.css'
 import logo from './logo.png';
@@ -19,14 +20,18 @@ const Navbar = () => {
         </Name>
         <NavMenu>
           <NavLink to='/About' activeStyle>
-            ABOUT
+            <span style = {{color: "var(--col6)"} }>01.&nbsp;</span>
+            About
           </NavLink>
           <NavLink to='/Portfolio' activeStyle>  
-            PORTFOLIO
+            <span style = {{color: "var(--col6)"} }>02.&nbsp;</span>
+            Portfolio
           </NavLink>
-          <NavLink to='/Timeline' activeStyle>  
-            TIMELINE
+          <NavLink to='/Timeline' activeStyle> 
+          <span style = {{color: "var(--col6)"} }>03.&nbsp;</span> 
+            Timeline
           </NavLink>
+          <Resume href = "https://bit.ly/3ll8fpY"  target="_blank">Resume</Resume>
         </NavMenu>
       </Nav>
     </>

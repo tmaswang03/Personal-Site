@@ -2,28 +2,44 @@ import { NavLink as Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const Nav = styled.nav`
-  background: var(--col0);
+  background: var(--col0); position: relative; 
   height: 10vh; 
   display: flex;
   justify-content: center; 
   align-items: center; 
   font-size: 2rem; 
+  z-index: 1000; 
   box-shadow:
     2px 2px var(--col6)
 `;
 
 export const NavLink = styled(Link)`
-  color: var(--col6); background-color: var(--col0);
-  display: flex;
-  align-items: center;
-  text-decoration: none;
+  color: var(--col5); background-color: var(--col0);
+  display: flex; align-items: center;
   font-size: 80%; 
   padding: 2rem; 
   cursor: pointer;
-  height: 8vh; 
+  height: 5vh; 
+  transition: 0.5s; margin: auto; 
+  font-family: 'Inconsolata', monospace; font-size: 18px; 
+  &:hover {
+    box-shadow: 0 3px 0 var(--col6);
+    color: var(--col6); 
+  }
+`;
+
+export const Resume = styled.a`
+  color: var(--col6); background-color: var(--col0);
+  display: flex; align-items: center;
+  font-size: 80%; 
+  padding: 2rem; 
+  cursor: pointer;
+  height: 5vh; 
   transition: 0.5s; 
-  justify-content: center;  
-  border: 2px solid var(--col6); 
+  margin: auto; margin-left: 5px; 
+  border: 2px solid var(--col6); border-radius: 10px; 
+  font-family: 'Inconsolata', monospace; font-size: 18px; 
+
   &:hover {
     background: var(--col6); 
     color: var(--col0);

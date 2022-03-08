@@ -31,7 +31,8 @@ const About = () => {
         <div className = "container2">
             {/* include: education, interests,fpm description */}
             <div className = "aboutHeader">
-                About Me 🤗
+                <span style = {{color: "var(--col6)"}}>01.</span>
+                <span style = {{color: "var(--col5)"}}>&nbsp;About</span>
             </div>
             <div className = "aboutText">
                 Hey guys, as you probably know my name is Thomas Wang.
@@ -57,23 +58,23 @@ const About = () => {
                 </a>
             </div>
             <img src = "../ProfileImage.jpg" className = "profilePic"></img>
-            <h1 className = "hobbies">Hobbies</h1>
+            <h1 className = "hobbies">&lt;Hobbies/&gt;</h1>
             <div className = "buttonContainer">
                 <button className = "hobbieButtons" onClick= {() => setHobbieIndex(1)}>Math 
-                    <FontAwesomeIcon icon = {faCalculator} className = "ml-4 mr-4 text-green-500"/>
+                    <FontAwesomeIcon icon = {faCalculator} className = "ml-4 mr-4" style = {{color: "var(--col6)"}}/>
                 </button>
                 <button className = "hobbieButtons" onClick= {() => setHobbieIndex(2)}>Music
-                    <FontAwesomeIcon icon = {faHeadphones} className = "ml-4 mr-4 text-red-500"/>
+                    <FontAwesomeIcon icon = {faHeadphones} className = "ml-4 mr-4" style = {{color: "var(--col6)"}}/>
                 </button>
                 <button className = "hobbieButtons" onClick= {() => setHobbieIndex(3)}>Video Games
-                    <FontAwesomeIcon icon = {faGamepad} className = "ml-4 mr-4 text-yellow-500"/>
+                    <FontAwesomeIcon icon = {faGamepad} className = "ml-4 mr-4" style = {{color: "var(--col6)"}}/>
                 </button>
                 <button className = "hobbieButtons" onClick= {() => setHobbieIndex(4)}>Computer Science 
-                    <FontAwesomeIcon icon = {faLaptop} className = "ml-4 mr-4 text-blue-500"/>
+                    <FontAwesomeIcon icon = {faLaptop} className = "ml-4 mr-4" style = {{color: "var(--col6)"}}/>
                 </button>
             </div>
             <div className = "hobbieContainer">
-                <div className = "hobbieTitle"> {myHobbieTitles[hobbieIndex]}</div>
+                <div className = "hobbieTitle"> &lt;{myHobbieTitles[hobbieIndex]}/&gt; </div>
                 <div className = "hobbieDiv"> {myHobbies[hobbieIndex]} </div>
             </div>
             <ParticlesBg type = "cobweb" bg = {true} color = "#5CDB95"/> 

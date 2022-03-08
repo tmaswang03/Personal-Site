@@ -3,10 +3,6 @@ import Project from '../components/Project/Project'
 const Portfolio = () => {
     return (
         <div>
-            <button className = "resumeButton">
-                <a href = "https://bit.ly/3ll8fpY">View Resume</a>
-            </button>  
-
             <Project text = "Group project submission for Hack This Fall, where we created an online room chatting application. Chatify hosts up to 12 different chat rooms where you can talk with people about anything and connect with people from around the world. This was made using Firebase as well as ReactJS and Bootstrap. " 
             head = "MedicApp" 
             imgLi = "./ProjectImg/Chatify.jpg"
