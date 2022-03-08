@@ -100,7 +100,7 @@
 .container1 {
     display: grid; 
     grid-template-columns: repeat(3, 1fr); 
-    grid-template-rows: repeat(3, 1fr); 
+    grid-template-rows: repeat(3, 1fr); height: 90vh; 
 }
 
 .container2 { 
@@ -220,7 +220,7 @@ img { object-fit: cover; }
     text-transform: none;
     font-size: 5vh;  
     grid-row-start: 1; 
-    color: var(--col2); 
+    color: var(--col9); 
     height: 8.5vh; width: auto; margin-bottom: 5vh; 
     font-family: 'Inconsolata', monospace; 
 }
@@ -282,12 +282,13 @@ span {
 .title {
     font-size: 15em;
     text-align: center;
-    font-family: "Bebas Neue", sans-serif;
+    font-family: 'Inconsolata', monospace;
 }
 
 h3 {
     padding-top: 0.25rem; 
     color: var(--col6); 
+    font-family: 'Inconsolata', monospace;
 }
 
 .timelineHeader {
@@ -301,13 +302,18 @@ h3 {
     -webkit-text-stroke: 1px var(--col6); 
     color: var(--col3);
     width: 30vw; height: 10vh; 
-    transition: 0.5s;   
+    font-family: 'Inconsolata', monospace;
 }
 
 .vertical-timeline-element-content {
     box-shadow: 0 0.25em 1.5em 0 var(--col6),
         0 0.5em 1.25em 0 var(--col6) !important;
     padding: 2em 3em !important;
+    font-family: 'Inconsolata', monospace;
+}
+
+.vertical-timeline-element-location {
+    font-family: 'Inconsolata', monospace;
 }
 
 .date {
@@ -316,6 +322,8 @@ h3 {
 
 #description {
     margin: 1.5em 0 2em 0;
+    font-family: 'Inconsolata', monospace;
+    color: var(--col1); 
 }
 
 @media only screen and (max-width: 1700px) {

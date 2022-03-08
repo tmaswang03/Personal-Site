@@ -2,7 +2,7 @@ import { NavLink as Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const Nav = styled.nav`
-  background: var(--col0); position: relative; 
+  background: var(--col1); position: relative; 
   height: 10vh; 
   display: flex;
   justify-content: center; 
@@ -14,7 +14,7 @@ export const Nav = styled.nav`
 `;
 
 export const NavLink = styled(Link)`
-  color: var(--col5); background-color: var(--col0);
+  color: var(--col5); background-transparency: 100%; 
   display: flex; align-items: center;
   font-size: 80%; 
   padding: 2rem; 
@@ -23,13 +23,13 @@ export const NavLink = styled(Link)`
   transition: 0.5s; margin: auto; 
   font-family: 'Inconsolata', monospace; font-size: 18px; 
   &:hover {
-    box-shadow: 0 3px 0 var(--col6);
+    box-shadow: 0 2px 0 var(--col6);
     color: var(--col6); 
   }
 `;
 
 export const Resume = styled.a`
-  color: var(--col6); background-color: var(--col0);
+  color: var(--col6); background-color: var(--col1);
   display: flex; align-items: center;
   font-size: 80%; 
   padding: 2rem; 
@@ -39,11 +39,10 @@ export const Resume = styled.a`
   margin: auto; margin-left: 5px; 
   border: 2px solid var(--col6); border-radius: 10px; 
   font-family: 'Inconsolata', monospace; font-size: 18px; 
-
   &:hover {
     background: var(--col6); 
     color: var(--col0);
-    box-shadow: 0 0 5px var(--col6), 0 0 25px var(--col6), 0 0 50px var(--col6), 0 0 200px var(--col6);
+    box-shadow: 0 0 5px var(--col6), 0 0 5px var(--col6), 0 0 5px var(--col6), 0 0 100px var(--col6);
   }
 `;
 

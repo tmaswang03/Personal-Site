@@ -25,14 +25,15 @@ const About = () => {
     + "CSES, leetcode and atcoder.  In 2021 I wrote my first CCC senior, ranking in the top 4%. By grade 12 I founded "
     + "my school's Computer Science club and began participating in Hackathons and 100$+ in awards. Now, I hope to pursue a Computer Science Career at Waterloo. "
     + "If you are seeing this that means that now I have finished my personal site (built with react) :D and thank you for visiting :)"];
-    const myHobbieTitles = ["Hobbies", "Math", "Music", "Video Games", "Computer Science"]
+    const myHobbieTitles = ["Info", "Math", "Music", "Video Games", "Computer Science"]
     const [hobbieIndex, setHobbieIndex] = useState(0); 
     return (
         <div className = "container2">
             {/* include: education, interests,fpm description */}
             <div className = "aboutHeader">
-                <span style = {{color: "var(--col6)"}}>01.</span>
-                <span style = {{color: "var(--col5)"}}>&nbsp;About</span>
+                <span style = {{color: "var(--col6)"}}>&lt;</span>
+                <span style = {{color: "var(--col5)"}}>About</span>
+                <span style = {{color: "var(--col6)"} }>/&gt;</span>
             </div>
             <div className = "aboutText">
                 Hey guys, as you probably know my name is Thomas Wang.

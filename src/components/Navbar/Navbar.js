@@ -20,16 +20,19 @@ const Navbar = () => {
         </Name>
         <NavMenu>
           <NavLink to='/About' activeStyle>
-            <span style = {{color: "var(--col6)"} }>01.&nbsp;</span>
+            <span style = {{color: "var(--col6)"} }>&lt;</span>
             About
+            <span style = {{color: "var(--col6)"} }>/&gt;</span>
           </NavLink>
           <NavLink to='/Portfolio' activeStyle>  
-            <span style = {{color: "var(--col6)"} }>02.&nbsp;</span>
+          <span style = {{color: "var(--col6)"} }>&lt;</span>
             Portfolio
+            <span style = {{color: "var(--col6)"} }>/&gt;</span>
           </NavLink>
           <NavLink to='/Timeline' activeStyle> 
-          <span style = {{color: "var(--col6)"} }>03.&nbsp;</span> 
+          <span style = {{color: "var(--col6)"} }>&lt;</span>
             Timeline
+            <span style = {{color: "var(--col6)"} }>/&gt;</span>
           </NavLink>
           <Resume href = "https://bit.ly/3ll8fpY"  target="_blank">Resume</Resume>
         </NavMenu>
