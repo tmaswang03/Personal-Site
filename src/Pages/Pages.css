@@ -245,15 +245,14 @@ img { object-fit: cover; }
     color: var(--col8); 
     /* background: -webkit-linear-gradient(0deg, transparent 50%, var(--col5) 50%); background-size: 100vw 100vw;  */
     font-family: 'Inconsolata', monospace; 
-    transition: 0.3s; 
 }
 
 .hobbieButtons:focus { 
     border-left: solid 3px var(--col6); color: var(--col6); 
-    background-color: var(--col0); 
+    background-color: var(--col0); transition: 0.3s; 
 }
 
-.hobbieButtons:hover { opacity: 0.5; }
+.hobbieButtons:hover { opacity: 0.5; transition: 0.3s; }
 
 .icons{
     color: rgb(22 163 74); 
