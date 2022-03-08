@@ -263,14 +263,6 @@ img { object-fit: cover; }
 .icons:hover { 
     color: white; 
 }
-
-h4 {
-    color: var(--col5); 
-}
-  
-section {
-    height: 100vh; 
-}
   
 span {
     pointer-events: none;
@@ -285,44 +277,52 @@ span {
 }
 
 h3 {
-    padding-top: 0.25rem; 
     color: var(--col6); 
     font-family: 'Inconsolata', monospace;
 }
 
+h5 {
+    color: var(--col5); 
+}
+
 .timelineHeader {
     display: flex; 
-    align-items: center;
-    padding: 10px 30px; margin: auto; margin-top: 5vh; justify-content: center; 
-    border: 2px solid var(--col6);
-    text-transform: none; font-size: 3vh;  
+    padding: 10px 30px; margin: auto; margin-top: 5vh; 
+    font-size: 3vh;  
     grid-row-start: 2; grid-column-start: 1; 
-    box-shadow: 0 0 2px var(--col6), 0 0 2px var(--col6), 0 0 5px var(--col6), 0 0 200px var(--col6);
     -webkit-text-stroke: 1px var(--col6); 
-    color: var(--col3);
-    width: 30vw; height: 10vh; 
+    align-items: center; justify-content: center;
+    color: var(--col6); border: solid 2px var(--col6); background-color: var(--col0); 
+    height: 10vh; width: fit-content; 
     font-family: 'Inconsolata', monospace;
 }
 
 .vertical-timeline-element-content {
-    box-shadow: 0 0.25em 1.5em 0 var(--col6),
-        0 0.5em 1.25em 0 var(--col6) !important;
-    padding: 2em 3em !important;
     font-family: 'Inconsolata', monospace;
+    box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+    0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+    padding: 2em 3em !important;
+    border: solid 2px var(--col6); 
 }
 
 .vertical-timeline-element-location {
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Inconsolata', monospace; 
 }
 
 .date {
     color: rgb(201, 251, 255);
 }
 
+.vertical-timeline.vertical-timeline-custom-line::before {
+    background: var(--col6);
+}
+.vertical-timeline.vertical-timeline-custom-line .vertical-timeline-element-icon {
+    box-shadow: 0 0 0 4px var(--col6), inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+}
+
 #description {
-    margin: 1.5em 0 2em 0;
     font-family: 'Inconsolata', monospace;
-    color: var(--col1); 
+    color: var(--col8); 
 }
 
 @media only screen and (max-width: 1700px) {
@@ -330,6 +330,5 @@ h3 {
       display: block !important;
       float: none !important;
       color: rgb(248, 241, 241);
-      margin-top: 1.5em;
     }
   }
