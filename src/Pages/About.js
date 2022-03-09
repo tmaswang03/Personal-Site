@@ -32,7 +32,7 @@ const About = () => {
             {/* include: education, interests,fpm description */}
             <div className = "aboutHeader">
                 <span style = {{color: "var(--col6)"}}>&lt;</span>
-                <span style = {{color: "var(--col5)"}}>About</span>
+                <span style = {{color: "var(--col10)"}}>About</span>
                 <span style = {{color: "var(--col6)"} }>/&gt;</span>
             </div>
             <div className = "aboutText">
@@ -59,7 +59,11 @@ const About = () => {
                 </a>
             </div>
             <img src = "../ProfileImage.jpg" className = "profilePic"></img>
-            <h1 className = "hobbies">&lt;Hobbies/&gt;</h1>
+            <h1 className = "hobbies">
+                <span style = {{color: "var(--col6)"}}>&lt;</span>
+                Hobbies
+                <span style = {{color: "var(--col6)"} }>/&gt;</span>
+            </h1>
             <div className = "buttonContainer">
                 <button className = "hobbieButtons" onClick= {() => setHobbieIndex(1)}>Math 
                     <FontAwesomeIcon icon = {faCalculator} className = "ml-4 mr-4" style = {{color: "var(--col6)"}}/>

@@ -11,7 +11,11 @@ import './Pages.css';
 function Timeline() {
   return (
     <div>
-        <h1 className = "timelineHeader">&lt;Welcome To My Timeline/&gt;</h1> 
+        <h1 className = "timelineHeader">
+          <span style = {{color: "var(--col6)"} }>&lt;</span>
+          Welcome To My Timeline
+          <span style = {{color: "var(--col6)"} }>/&gt;</span>         
+        </h1> 
         <VerticalTimeline className = "vertical-timeline-custom-line">
             {timelineElements.map((element) => {
             return (

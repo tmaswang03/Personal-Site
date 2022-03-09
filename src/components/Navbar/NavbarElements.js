@@ -14,13 +14,14 @@ export const Nav = styled.nav`
 `;
 
 export const NavLink = styled(Link)`
-  color: var(--col5); background-transparency: 100%; 
+  color: var(--col10); background-transparency: 100%; 
   display: flex; align-items: center;
   font-size: 80%; 
   padding: 2rem; 
   cursor: pointer;
   height: 5vh; 
   transition: 0.5s; margin: auto; 
+  font-weight: 1; 
   font-family: 'Inconsolata', monospace; font-size: 18px; 
   &:hover {
     box-shadow: 0 2px 0 var(--col6);
@@ -38,7 +39,7 @@ export const Resume = styled.a`
   transition: 0.5s; 
   margin: auto; margin-left: 5px; 
   border: 2px solid var(--col6); border-radius: 10px; 
-  font-family: 'Inconsolata', monospace; font-size: 18px; 
+  font-family: 'Inconsolata', monospace; font-size: 18px; font-weight: 1; 
   &:hover {
     background: var(--col6); 
     color: var(--col0);

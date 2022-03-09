@@ -6,7 +6,9 @@ const Project = ({text, head, imgLi, codeLink, projectLink}) => {
         <div className = "projectContainer">
             <div className = "infoContainer">
                 <h1 className = "projectHeader">
-                    {head} 
+                    <span style = {{color: "var(--col6)"} }>&lt;</span>
+                    {head}
+                    <span style = {{color: "var(--col6)"} }>/&gt;</span>
                 </h1>
                 <h4 className = "projectInfo">
                     {text}

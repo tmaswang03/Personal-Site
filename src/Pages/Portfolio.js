@@ -4,7 +4,7 @@ const Portfolio = () => {
     return (
         <div>
             <Project text = "Group project submission for Hack This Fall, where we created an online room chatting application. Chatify hosts up to 12 different chat rooms where you can talk with people about anything and connect with people from around the world. This was made using Firebase as well as ReactJS and Bootstrap. " 
-            head = "MedicApp" 
+            head = "Chatify" 
             imgLi = "./ProjectImg/Chatify.jpg"
             codeLink = "https://github.com/tmaswang03/Hack-This-Fall-2021"
             projectLink = "https://devpost.com/software/chatify-42wgsp"

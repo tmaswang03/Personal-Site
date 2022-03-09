@@ -115,14 +115,21 @@
 }
 
 .aboutHeader {
-    background: var(--col1); display: flex; color: var(--col2);
-    position: relative; 
-    padding: 10px 30px; 
-    border-bottom: 0.3vw solid var(--col6);
+    background: var(--col1); display: table; 
+    position: relative;  
     text-transform: none;
-    font-size: 7vh; 
-    width: 30vw; 
-    font-family: 'Inconsolata', monospace; 
+    white-space: nowrap; 
+    font-size: 7vh; height: fit-content; 
+    font-family: 'Inconsolata', monospace; font-weight: 100; 
+} 
+
+.aboutHeader:after {
+    border-top: 2px solid var(--col6);
+    content: '';
+    display: table-cell;
+    position: relative;
+    top: 5.2vh;
+    width:52%;
 }
 
 .aboutText {
@@ -184,12 +191,12 @@ img { object-fit: cover; }
     display: table; 
     text-transform: none; white-space: nowrap; 
     font-size: 4vw; 
-    color: var(--col9);
-    font-family: 'Inconsolata', monospace;
+    color: var(--col10);
+    font-family: 'Inconsolata', monospace; font-weight: 100; 
 }
 
 .hobbies:after {
-    border-top: 2px solid var(--col9);
+    border-top: 2px solid var(--col6);
     content: '';
     display: table-cell;
     position: relative;
@@ -290,11 +297,10 @@ h5 {
     padding: 10px 30px; margin: auto; margin-top: 5vh; 
     font-size: 3vh;  
     grid-row-start: 2; grid-column-start: 1; 
-    -webkit-text-stroke: 1px var(--col6); 
     align-items: center; justify-content: center;
-    color: var(--col6); border: solid 2px var(--col6); background-color: var(--col0); 
+    color: var(--col10); border: solid 2px var(--col6); background-color: var(--col0); 
     height: 10vh; width: fit-content; 
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Inconsolata', monospace; font-weight: 100; 
 }
 
 .vertical-timeline-element-content {

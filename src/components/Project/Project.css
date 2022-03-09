@@ -1,5 +1,4 @@
 img {
-    max-width: 100%;
     height: auto;
     width: auto\9; /* ie8 */
 }
@@ -10,7 +9,7 @@ img {
     display: grid; 
     grid-template-columns: repeat(2, 40vw); 
     grid-template-rows: repeat(2, auto); 
-    background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+    /* background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%); */
     border-radius: 0.5vw; 
     margin: 2vw; 
     border: 0.2vw solid var(--col6); 
@@ -32,6 +31,7 @@ img {
     border-bottom: 0.2vw solid var(--col6); 
     padding: 0.5vw; 
     text-transform: uppercase; 
+    font-family: 'Inconsolata', monospace; font-weight: 100; 
 }
 
 .projectInfo {
@@ -41,7 +41,7 @@ img {
     font-size: 1.8vh; 
     color: var(--col5);
     padding: 1vw; 
-    font-weight: 100; 
+    font-weight: 100; font-family: 'Inconsolata', monospace;
 }
 
 .imageHolder {
@@ -73,6 +73,7 @@ img {
     background-size: 100vw 100vw; 
     transition: 0.5s; 
     margin: 1vw; 
+    font-weight: 100; font-family: 'Inconsolata', monospace;
 }
   
 .codeBtn:hover {
@@ -98,6 +99,7 @@ img {
     background-size: 100vw 100vw; 
     transition: 0.5s; 
     margin: 1vw; 
+    font-weight: 100; font-family: 'Inconsolata', monospace;
 }
   
 .projectBtn:hover {
