@@ -6,6 +6,7 @@ import ParticlesBg from 'particles-bg'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faCoffee, faCalculator, faHeadphones, faGamepad, faLaptop, faEnvelope } from "@fortawesome/free-solid-svg-icons"
 import { faSpotify, faDiscord, faLinkedin, faGithub, faInstagram } from "@fortawesome/free-brands-svg-icons"
+import Snowfall from 'react-snowfall'
 const About = () => {
     const myHobbies = ["Welcome to my hobbies section :D. Click on the buttons on the side to discover more about my interests. ", 
     "Mathematics has been something I've done since elementary school (although I'm not the best at it). I've participated in a bunch of " +  
@@ -29,6 +30,7 @@ const About = () => {
     const [hobbieIndex, setHobbieIndex] = useState(0); 
     return (
         <div className = "container2">
+            <Snowfall style={{height: "100vh"}} />
             {/* include: education, interests,fpm description */}
             <div className = "aboutHeader">
                 <span style = {{color: "var(--col6)"}}>&lt;</span>
@@ -81,8 +83,7 @@ const About = () => {
             <div className = "hobbieContainer">
                 <div className = "hobbieTitle"> &lt;{myHobbieTitles[hobbieIndex]}/&gt; </div>
                 <div className = "hobbieDiv"> {myHobbies[hobbieIndex]} </div>
-            </div>
-            <ParticlesBg type = "cobweb" bg = {true} color = "#5CDB95"/> 
+            </div> 
         </div>
     )
 }

@@ -7,7 +7,6 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import './Pages.css';
 
-
 function Timeline() {
   return (
     <div>

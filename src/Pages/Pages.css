@@ -148,7 +148,7 @@
 
 .profilePic {
     height: 100%; width: 90vw; 
-    overflow: hidden;
+    overflow: hidden; position: relative; 
     grid-column-start: 2; 
     grid-row-start: 1; 
     grid-row-end: 4; 
@@ -293,7 +293,7 @@ h5 {
 }
 
 .timelineHeader {
-    display: flex; 
+    display: flex; position: relative; 
     padding: 10px 30px; margin: auto; margin-top: 5vh; 
     font-size: 3vh;  
     grid-row-start: 2; grid-column-start: 1; 

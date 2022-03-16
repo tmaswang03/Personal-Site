@@ -76,7 +76,7 @@ let timelineElements = [
     title: "Second CCC Senior",
     location: "University of Waterloo",
     description:
-      "Completed my second CCC Senior wasn't the best but not bad. Managed to get a 45, solving S1 - S3, but got stuck on partials for S4/S5.",
+      "Completed my second CCC Senior wasn't the best but not bad. Managed to get a 45, solving S1 - S3, but got stuck on partials for S4/S5. Update: CCC Group 3 honour roll ranking in the top 3% of participants :D. Improvement from last year, not bad. ",
     date: "February 16, 2022",
   },
   {
