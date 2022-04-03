@@ -30,7 +30,7 @@ const About = () => {
     const [hobbieIndex, setHobbieIndex] = useState(0); 
     return (
         <div className = "container2">
-            <Snowfall style={{height: "100vh"}} />
+            <Snowfall color = "#666666" style={{height: "175vh", opacity: "0.15"}} />
             {/* include: education, interests,fpm description */}
             <div className = "aboutHeader">
                 <span style = {{color: "var(--col6)"}}>&lt;</span>
