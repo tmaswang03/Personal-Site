@@ -17,7 +17,7 @@ export const NavLink = styled(Link)`
   color: var(--col10); background-transparency: 100%; 
   display: flex; align-items: center;
   font-size: 80%; 
-  padding: 2rem; 
+  padding: 3vh; 
   cursor: pointer;
   height: 5vh; 
   transition: 0.5s; margin: auto; 
@@ -32,7 +32,7 @@ export const Resume = styled.a`
   color: var(--col6); background-color: var(--col1);
   display: flex; align-items: center;
   font-size: 80%; 
-  padding: 2rem; 
+  padding: 3vh; 
   cursor: pointer;
   height: 5vh; 
   transition: 0.5s; 
