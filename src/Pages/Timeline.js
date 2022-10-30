@@ -1,5 +1,5 @@
 import React from 'react'
-import timelineElements from "./timelineElements";
+import timelineElements from "./TimelineElements";
 import {
   VerticalTimeline,
   VerticalTimelineElement,

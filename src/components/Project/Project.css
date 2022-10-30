@@ -14,9 +14,6 @@ img {
     transition: top ease 0.5s;
 }
 
-.projectContainer:hover {
-    top: -1vh; 
-}   
 .infoContainer {  
     margin: 2vw; 
 }

@@ -99,7 +99,7 @@
 
 .container1 {
     display: grid; 
-    grid-template-columns: repeat(3, 1fr); 
+    grid-template-columns: repeat(3, 1fr);      
     grid-template-rows: repeat(3, 1fr); height: 90vh; 
 }
 
@@ -111,7 +111,7 @@
     padding: 2vw;
     border: 0.2vw solid var(--col6); 
     background-color: rgba(0, 0, 0, 0.3);
-    grid-row-gap: 4vh; grid-column-gap: 1vw; 
+    grid-column-gap: 1vw;
 }
 
 .aboutHeader {
@@ -137,17 +137,18 @@
     position: relative; 
     display: inline-block; 
     text-transform: none;
-    font-size: 2vh;  
+    font-size: 25px;  
     grid-row-start: 2; 
     grid-column-start: 1; 
     color: var(--col8);
     width: 30vw; padding: 1vw; 
     transition: 0.5s; 
+    text-align: justify; 
     font-family: 'Inconsolata', monospace; 
 }
 
 .profilePic {
-    height: 100%; width: 90vw; 
+    height: 100%; width: 100rem; 
     overflow: hidden; position: relative; 
     grid-column-start: 2; 
     grid-row-start: 1; 

@@ -24,7 +24,7 @@ const About = () => {
     "This was an online judge used for practicing problems regarding Competitive Programming and I created an account under Tmaswang03. " +
     "Currently, I am the top 100 of all users and reached a masters level rating :D. Soon enough I joined other sites such as Codeforces, "
     + "CSES, leetcode and atcoder.  In 2021 I wrote my first CCC senior, ranking in the top 4%. By grade 12 I founded "
-    + "my school's Computer Science club and began participating in Hackathons and 100$+ in awards. Now, I hope to pursue a Computer Science Career at Waterloo. "
+    + "my school's Computer Science club and began participating in Hackathons and 100$+ in awards. "
     + "If you are seeing this that means that now I have finished my personal site (built with react) :D and thank you for visiting :)"];
     const myHobbieTitles = ["Info", "Math", "Music", "Video Games", "Computer Science"]
     const [hobbieIndex, setHobbieIndex] = useState(0); 
@@ -39,9 +39,8 @@ const About = () => {
             </div>
             <div className = "aboutText">
                 Hey guys, as you probably know my name is Thomas Wang.
-                I'm currently a grade 12 student attending the IB program at Milliken Mills High School. 
-                Some subjects that I am most passionate about are Mathematics, Computer Science (web dev + competitive programming), 
-                as well as Music. 
+                I'm currently a first year student attending the Software Engineering program at University of Waterloo. 
+                I've grown an interest towards full-stack development and competitive programming. My next goal is to gain an understanding of Machine Learning.  
             </div>
             <div className = "contacts">
                 <a href = "https://open.spotify.com/user/21j5rrzcvdw7k6wq3yzr4uj7q?si=3e49b5181ecf4f47">

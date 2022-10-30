@@ -21,9 +21,8 @@ export const NavLink = styled(Link)`
   cursor: pointer;
   height: 5vh; 
   transition: 0.5s; margin: auto; 
-  font-family: 'Inconsolata', monospace; font-size: 18px; 
+  font-family: 'Inconsolata', monospace; font-size: 19px; 
   &:hover {
-    box-shadow: 0 2px 0 var(--col6);
     color: var(--col6); 
   }
 `;
@@ -42,7 +41,7 @@ export const Resume = styled.a`
   &:hover {
     background: var(--col6); 
     color: var(--col0);
-    box-shadow: 0 0 5px var(--col6), 0 0 5px var(--col6), 0 0 5px var(--col6), 0 0 100px var(--col6);
+    // box-shadow: 0 0 5px var(--col6), 0 0 5px var(--col6), 0 0 5px var(--col6), 0 0 100px var(--col6);
   }
 `;
 
