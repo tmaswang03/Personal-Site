@@ -135,7 +135,6 @@
 .aboutText {
     background: var(--col1); 
     position: relative; 
-    display: inline-block; 
     text-transform: none;
     font-size: 25px;  
     grid-row-start: 2; 
@@ -143,7 +142,6 @@
     color: var(--col8);
     width: 30vw; padding: 1vw; 
     transition: 0.5s; 
-    text-align: justify; 
     font-family: 'Inconsolata', monospace; 
 }
 

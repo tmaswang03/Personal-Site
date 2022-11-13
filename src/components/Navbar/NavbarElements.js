@@ -20,7 +20,7 @@ export const NavLink = styled(Link)`
   padding: 3vh; 
   cursor: pointer;
   height: 5vh; 
-  transition: 0.5s; margin: auto; 
+  transition: 0.5s; margin: auto; font-weight: 400; 
   font-family: 'Inconsolata', monospace; font-size: 19px; 
   &:hover {
     color: var(--col6); 
@@ -37,7 +37,7 @@ export const Resume = styled.a`
   transition: 0.5s; 
   margin: auto; margin-left: 5px; 
   border: 2px solid var(--col6); border-radius: 10px; 
-  font-family: 'Inconsolata', monospace; font-size: 18px; 
+  font-family: 'Inconsolata', monospace; font-size: 18px; font-weight: 400; 
   &:hover {
     background: var(--col6); 
     color: var(--col0);
