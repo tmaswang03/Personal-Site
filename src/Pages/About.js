@@ -38,25 +38,24 @@ const About = () => {
                 <span style = {{color: "var(--col6)"} }>/&gt;</span>
             </div>
             <div className = "aboutText">
-                Hey guys, as you probably know my name is Thomas Wang.
-                I'm currently a first year student attending the Software Engineering program at University of Waterloo. 
-                I've grown an interest towards full-stack development and competitive programming. My next goal is to gain an understanding of Machine Learning.  
+                Hey! I am Thomas Wang and one of my greatest joys lies in creating things. My programming journey first began when I was introduced to Competitive Programming in 2020.
+                Since then, I have explored many other fields of Computer Science and have begun working towards becoming a full-stack developer. My current goal is to gain an understanding of Machine Learning.  
             </div>
             <div className = "contacts">
                 <a href = "https://open.spotify.com/user/21j5rrzcvdw7k6wq3yzr4uj7q?si=3e49b5181ecf4f47">
-                    <FontAwesomeIcon icon = {faSpotify} className = "icons"/>
+                    <FontAwesomeIcon icon = {faSpotify} className = "icons" style = {{ height: "60px" }}/>
                 </a>
                 <a href = "https://www.instagram.com/tmaswang_69/">
-                    <FontAwesomeIcon icon = {faInstagram} className = "icons"/>
+                    <FontAwesomeIcon icon = {faInstagram} className = "icons" style = {{ height: "60px" }}/>
                 </a>
                 <a href = "https://github.com/tmaswang03">
-                    <FontAwesomeIcon icon = {faGithub} className = "icons"/>
+                    <FontAwesomeIcon icon = {faGithub} className = "icons" style = {{ height: "60px" }}/>
                 </a>
                 <a href = "mailto:thomaswang003@gmail.com">
-                    <FontAwesomeIcon icon = {faEnvelope} className = "icons"/>
+                    <FontAwesomeIcon icon = {faEnvelope} className = "icons" style = {{ height: "60px" }}/>
                 </a>
                 <a href = "https://www.linkedin.com/in/thomas-wang-5044b01b3/">
-                    <FontAwesomeIcon icon = {faLinkedin} className = "icons"/>
+                    <FontAwesomeIcon icon = {faLinkedin} className = "icons" style = {{ height: "60px" }}/>
                 </a>
             </div>
             <img src = "../ProfileImage.jpg" className = "profilePic"></img>

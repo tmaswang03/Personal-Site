@@ -1,40 +1,36 @@
-.name::before {
-    content: attr(data-text); 
-    position: absolute; 
-    left: 0; width: 0;
-    height: 100%; 
-    color: var(--col5); 
-    -webkit-text-stroke: 0.1vw var(--col5); 
-    border-right: 2px solid var(--col5); 
-    overflow: hidden; 
-    /* animation: animate 2s linear 0.5s 1 normal forwards; */
-    animation: animate 2s linear 0.5s 1 normal forwards, flashBar 1s infinite; 
-}
+
   
-.name {
-    grid-column-start: 1; grid-column-end: 3 start; grid-row-start: 1; grid-row-end: 2; 
+.heading {
+    grid-column-start: 1; grid-column-end: 3;grid-row-start: 1; grid-row-end: 2; 
     position: relative; 
-    width: 61vw; 
-    font-size: 13vw; 
-    color: var(--col1);
-    -webkit-text-stroke: 0.6vw var(--col5);
-    text-transform: uppercase; 
-    margin-left: 2vw; 
-    z-index: -1; 
-}
+    width: 50rem; 
+    font-size: 10rem;font-weight: 800;
+    color: var(--col8);
+    margin-left: 6rem; 
+    z-index: 1; 
+} 
   
-@keyframes animate {
-    0%{ width: 0; }
-    80% { width: 70%; }
-    100% { width: 100%; }
+
+
+.typeWrite {
+    grid-column-start: 1; grid-column-end: 3;
+    grid-row-start: 2; grid-row-end: 3; 
+    white-space: nowrap; 
+    color: var(--col3);
+    margin-left: 6rem; 
+    letter-spacing: .15rem;   
 }
-  
-@keyframes flashBar {
-    0%{ border-right: 2px solid var(--col5); }
-    50% { border-right: 2px solid var(--col1); }
-    100% { border-right: 2px solid var(--col5); }
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
 }
-  
+
+@keyframes blink-caret {
+    from, to {border-color: transparent}
+    50% {border-color: var(--col3); }
+}
+
 .resumeButton {
     display: flex; 
     align-items: center;
@@ -99,17 +95,17 @@
 
 .container1 {
     display: grid; 
-    grid-template-columns: repeat(3, 1fr);      
-    grid-template-rows: repeat(3, 1fr); height: 90vh; 
+    grid-template-columns: repeat(4, 1fr);      
+    grid-template-rows: repeat(4, 1fr); height: 90vh; 
 }
 
 .container2 { 
     display: grid; 
     grid-template-rows: repeat(5, auto); 
     grid-template-columns: repeat(4, auto); 
-    margin: 5vw; margin-top: 5vh; margin-right: 2vw; 
+    margin: 5vw; margin-top: 5vh; 
     padding: 2vw;
-    border: 0.2vw solid var(--col6); 
+    /* border: 0.2vw solid var(--col6);  */
     background-color: rgba(0, 0, 0, 0.3);
     grid-column-gap: 1vw;
 }
@@ -140,19 +136,20 @@
     grid-row-start: 2; 
     grid-column-start: 1; 
     color: var(--col8);
-    width: 30vw; padding: 1vw; 
+    width: 35rem; padding: 1vw; 
     transition: 0.5s; 
     font-family: 'Inconsolata', monospace; 
 }
 
 .profilePic {
-    height: 100%; width: 100rem; 
+    height: 40rem; width: 100rem; 
     overflow: hidden; position: relative; 
     grid-column-start: 2; 
     grid-row-start: 1; 
     grid-row-end: 4; 
     grid-column-end: 4;
     object-fit: cover; 
+    margin-top: 3rem; margin-bottom: 3rem; 
 }
 
 .contacts {

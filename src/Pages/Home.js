@@ -5,6 +5,7 @@ import {useState} from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'; 
 import './Pages.css';
 import ParticlesBg from 'particles-bg'
+import {TypeAnimation} from 'react-type-animation';
 
 
 function Home() {
@@ -13,11 +14,16 @@ function Home() {
   return (
     <div className="Home">
       <div className = "container1">
-        <h2 className = "name" data-text = "Thomas">Thomas</h2>
-        <h3 className = "headerStyle" data-text = "Enjoys">Enjoys</h3>
-        <Button className = "aboutBtn" onClick= {() => setIndex((interestIndex + 1) % interest.length)} text = {interest[interestIndex]}/>
+        <h2 className = "heading" data-text = "I am">I am</h2>
+        <TypeAnimation className = "typeWrite" sequence={[ 'Thomas', 2000, 'A Coder', 2000, 'A Creator', 2000,]}
+      wrapper="div"
+      cursor={true}
+      repeat={Infinity}
+      style={{ fontSize: '8rem' }}
+    />
         {/* <Textbox className = "textbox" text = "About Me" size = "4.5vw"/>  */}
-        <ParticlesBg type = "cobweb" bg = {true} color = "#01fe87"/> 
+        <ParticlesBg type = "cobweb" bg = {true} color = "#141313"/> 
+
       </div>
     </div>  
   );
