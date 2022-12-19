@@ -34,7 +34,7 @@ const Navbar = () => {
             Timeline
             <span style = {{color: "var(--col6)"} }>/&gt;</span>
           </NavLink>
-          <Resume href = "https://bit.ly/3gYovyD"  target="_blank">Resume</Resume>
+          <Resume href = "https://drive.google.com/file/d/1TabEz-REu8fZbOV3QP5PDJX7IrN3jTto/view?usp=sharing"  target="_blank">Resume</Resume>
         </NavMenu>
       </Nav>
     </>
