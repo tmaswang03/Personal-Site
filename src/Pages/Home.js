@@ -15,7 +15,7 @@ function Home() {
     <div className="Home">
       <div className = "container1">
         <h2 className = "heading" data-text = "I am">I am</h2>
-        <TypeAnimation className = "typeWrite" sequence={[ 'Thomas', 2000, 'A Coder', 2000, 'A Creator', 2000,]}
+        <TypeAnimation className = "typeWrite" sequence={[ 'Thomas', 2000, 'A Coder', 2000, 'Imaginative', 2000, 'A Creator', 2000,]}
       wrapper="div"
       cursor={true}
       repeat={Infinity}

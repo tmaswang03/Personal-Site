@@ -38,7 +38,7 @@ const About = () => {
                 <span style = {{color: "var(--col6)"} }>/&gt;</span>
             </div>
             <div className = "aboutText">
-                Hey! I am Thomas Wang and one of my greatest joys lies in creating things. My programming journey first began when I was introduced to Competitive Programming in 2020.
+                Hey! I am Thomas Wang, a Software Engineering student at the University of Waterloo, and one of my greatest joys lies in creating things. My programming journey first began when I was introduced to Competitive Programming in 2020.
                 Since then, I have explored many other fields of Computer Science and have begun working towards becoming a full-stack developer. My current goal is to gain an understanding of Machine Learning.  
             </div>
             <div className = "contacts">
